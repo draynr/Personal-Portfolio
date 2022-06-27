@@ -1,39 +1,77 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <title>Hello World</title>
-    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
-    <!-- Don't use this in production: -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Jason Dang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="default.css" />
+    <script src="main.js"></script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="text/babel">
-    
-      function MyApp() {
-        return <h1>Hello, world!</h1>;
-      }
+    <section class="s1">
+      <div class="main-container">
+        <div class="greeting-wrapper">
+          <h1>Bonjour, I'm Jason Dang.</h1>
+        </div>
+        <div class="intro-wrapper">
+          <div class="nav-wrapper">
+            <div class="dots-wrapper">
+              <div id="first" class="browser-dot"></div>
+              <div id="second" class="browser-dot"></div>
+              <div id="third" class="browser-dot"></div>
+            </div>
+            <div class="title">
+              <p>jaesin's mb-pro</p>
+            </div>
+            <ul id="navigation">
+              <li>
+                <a href="#"> blog </a>
+              </li>
+              <li>
+                <a href="#"> spotify </a>
+              </li>
+              <li>
+                <a href="#"> contact </a>
+              </li>
+              
+            </ul>
+          </div>
 
-      const container = document.getElementById('root');
-      const root = ReactDOM.createRoot(container);
-      root.render(<MyApp />);
+          <div class="left">
+            <img id="Profile" src="images/profile.jpg" />
+          </div>
+          <div class="right">
+            <div id="preview">
+              <h3>age?</h3>
+                <p>20</p>
+              <h3>from?</h3>
+              <p>currently resides in elk grove, ca</p>
+              <h3>interests?</h3>
+              <p>reading, staying up until 5am for no reason</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section class="s2">
+        <div class="project-title">
+            <h1>Projects</h1>
+        </div>
+    </section>
 
-    </script>
-    <!--
-      Note: this page is a great way to try React but it's not suitable for production.
-      It slowly compiles JSX with Babel in the browser and uses a large development build of React.
-
-      Read this section for a production-ready setup with JSX:
-      https://reactjs.org/docs/add-react-to-a-website.html#add-jsx-to-a-project
-
-      In a larger project, you can use an integrated toolchain that includes JSX instead:
-      https://reactjs.org/docs/create-a-new-react-app.html
-
-      You can also use React without JSX, in which case you can remove Babel:
-      https://reactjs.org/docs/react-without-jsx.html
-    -->
+    <section class="s2">
+      <div class="main-container">Projects</div>
+    </section>
+    <section class="s2">
+      <div class="main-container">Contact</div>
+    </section>
   </body>
 </html>
