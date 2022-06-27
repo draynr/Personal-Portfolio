@@ -67,7 +67,7 @@
 	  display: flex;
 		align-items: center;
 		justify-content: center;
-
+		align-content: center;
 	  scroll-snap-align: start;
   }
   .main-container {
