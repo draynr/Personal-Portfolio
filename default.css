@@ -46,7 +46,7 @@
 	  font-family: "La Belle Aurore", cursive;
 	}
   .greeting-wrapper h1 {
-	
+
 	  font-size: 80px;
 	  font-weight: 600px;
   }
@@ -67,7 +67,6 @@
 	  display: grid;
 		align-items: center;
 		justify-content: center;
-		align-self:center;
 	  scroll-snap-align: start;
   }
  .s1 {
@@ -337,9 +336,7 @@
   }
   .autotype{
 	  color: #fec04f;
-	  padding-top: 5vh;
-	  padding-bottom: 5vh;
-	height: 20vh;
+	
 	  
   }
   .project-text {
