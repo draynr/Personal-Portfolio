@@ -338,8 +338,9 @@
 	height: 100vh;
 	
   }
-  span{
+  .autotype{
 	  color: #fec04f
+	  
   }
   .project-text {
 	font-family: "ProggryCleanTT", monospace;
