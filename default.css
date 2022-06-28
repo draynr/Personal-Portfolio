@@ -85,6 +85,8 @@
   }
   .s2container .box {
 	  background: #838F9C;
+	  object-fit: cover;
+
 	  padding: 20px;
 	  display: grid;
 	  font-size: 20px;
