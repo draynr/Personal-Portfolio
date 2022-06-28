@@ -32,7 +32,6 @@
   h6,
   p,
   li,
-  span,
   label,
   input,
   textarea {
@@ -40,7 +39,18 @@
 	color: white;
 	font-family: "ProggryCleanTT", monospace;
   }
-  
+  .greeting-wrapper {
+	  height: 50vh;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  font-family: "La Belle Aurore", cursive;
+	}
+  .greeting-wrapper h1 {
+	  
+	  font-size: 80px;
+	  font-weight: 600px;
+  }
   .s1 {
 	background-color: var(--mainColor);
 	font-family: "La Belle Aurore", cursive;
@@ -86,7 +96,6 @@
   .s2container .box {
 	  background: #838F9C;
 	  object-fit: cover;
-
 	  padding: 20px;
 	  display: grid;
 	  font-size: 20px;
@@ -328,6 +337,9 @@
 	overflow-y: scroll;
 	height: 100vh;
 	
+  }
+  span{
+	  color: #fec02f
   }
   .project-text {
 	font-family: "ProggryCleanTT", monospace;

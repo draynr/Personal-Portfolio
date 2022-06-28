@@ -26,7 +26,7 @@
         <div class="main-container">
       
           <div class="greeting-wrapper">
-            <h1 class="line anim-typewriter">Bonjour, I'm Jason Dang.</h1>
+            <h1><span class ="autotype"></span> I'm Jason Dang.</h1>
           </div>
           <div class="intro-wrapper">
             <div class="nav-wrapper">
@@ -192,9 +192,19 @@
       crossorigin="anonymous"
     ></script>
     <script
+    
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".autotype", {
+        strings:["Bonjour,", "Hello,", "Hola,", "Guten Tag,","你好,", "안녕하세요," ],
+        typeSpeed: 125,
+        backSpeed: 200,
+        loop:true
+      })
+    </script>
   </body>
 </html>
