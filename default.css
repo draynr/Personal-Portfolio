@@ -5,14 +5,13 @@
 	--mainText: #fff;
 	--secondText: #eeeeee;
   }
-  *{
-	  box-sizing:border-box;
-	  padding:0;
-  }
+  
+ 
   html,
   body {
 	padding: 0;
 	margin: 0;
+	height:100%;
 	background-color: var(--mainColor);
 	color: var(--mainText);
   }
@@ -40,14 +39,16 @@
 	font-family: "ProggryCleanTT", monospace;
   }
   .greeting-wrapper {
-	  height: 50vh;
-	  display: flex;
-	  align-items: center;
+	
+	margin-bottom: 0 auto;
+	display: flex;
 	  justify-content: center;
 	  font-family: "La Belle Aurore", cursive;
 	}
   .greeting-wrapper h1 {
-	  
+	  padding-top: 5vh;
+	  padding-bottom: 5vh;
+	height: 20vh;
 	  font-size: 80px;
 	  font-weight: 600px;
   }
@@ -69,7 +70,6 @@
 		align-items: center;
 		justify-content: center;
 		align-self:center;
-		align-content: center;
 	  scroll-snap-align: start;
   }
  .s1 {
@@ -186,8 +186,7 @@
   }
   
   .intro-wrapper {
-	  overflow: hidden;
-	border-radius: 5px 5px 0 0;
+	border-radius: 10px 10px 0 0;
 	background-color: var(--secondColor);
 	border: 1px solid var(--borderColor);
 	box-shadow: 3px 24px 105px -23px rgba(0,0,0,0.42);
@@ -212,7 +211,6 @@
 	margin: 0;
 	font-size: 12px;
 	font-family: "ProggryCleanTT", monospace;
-	padding: 15px;
 	align-items: center;
   }
   #navigation li {
