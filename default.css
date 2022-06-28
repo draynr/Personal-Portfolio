@@ -63,13 +63,15 @@
 	  scroll-snap-align: start;
   }
  .s1 {
-	 height:100.5vh;
+	 height:101vh;
  }
- .s2 {max-height:auto
+ .s2 {max-height:auto;
+	padding: 100px;
 
 }
  .s3{
 	 height:105vh;
+	 background-color: #fec04f;
  }
   .s2container  {
 	  position: relative;
@@ -322,7 +324,7 @@
   .scroll-container {
 	scroll-snap-type: y mandatory;
 	overflow-y: scroll;
-	height:100vh;
+	height: 100vh;
 	
   }
   .project-text {
