@@ -1,9 +1,10 @@
 :root {
-	--mainColor: #15202b;
+	--mainColor: #EDEDE3;
 	--borderColor: #121212;
 	--secondColor: #192734;
-	--mainText: #fff;
+	--mainText: #20201e;
 	--secondText: #eeeeee;
+	--origin:#15202b;
   }
   
  
@@ -19,7 +20,7 @@
   h1,
   strong {
 	color: var(--mainText);
-	font-family: "La Belle Aurore", cursive;
+	font-family: "Helvetica Neue", bold;
 	font-weight: 500px;
 	text-align: center;
   }
@@ -40,11 +41,11 @@
   }
   .greeting-wrapper {
 	  padding-top:5vh;
-	padding-bottom: 5vh;
+	padding-bottom: 11vh;
 	margin-bottom: 0 auto;
 	display: flex;
 	  justify-content: center;
-	  font-family: "La Belle Aurore", cursive;
+	  font-family: "Helvetica Neue", bold;
 	}
   .greeting-wrapper h1 {
 
@@ -53,7 +54,7 @@
   }
   .s1 {
 	background-color: var(--mainColor);
-	font-family: "La Belle Aurore", cursive;
+	font-family: "Helvetica Neue", bold;
 	overflow: auto;
 	margin:auto;
 	padding-bottom: 100px;
@@ -79,7 +80,10 @@
 }
  .s3{
 	 height:105vh;
-	 background-color: #fec04f;
+	 background-color: var(--mainColor);
+	 width:100vh;
+	 display:flex;
+	 justify-content: center;
  }
   .s2container  {
 	  position: relative;
@@ -92,7 +96,7 @@
 	  grid-gap: 10px;
   }
   .s2container .box {
-	  background: #838F9C;
+	  background: #FF8B28;
 	  object-fit: cover;
 	  padding: 20px;
 	  display: grid;
@@ -102,7 +106,8 @@
 	  transition: 0.5s;
   }
   .s2container .box:hover {
-	  background:#fec02f;
+	  background: #C9BAB0;
+	  
 
   }
   .s2container .box img {
@@ -180,13 +185,12 @@
 	font-size: 16px;
   }
   #carrot {
-	  color: #b0c4de;
+	  color: white;
   }
   
   .intro-wrapper {
 	border-radius: 10px 10px 0 0;
-	background-color: var(--secondColor);
-	border: 1px solid var(--borderColor);
+	background-color: #36454F;
 	box-shadow: 3px 24px 105px -23px rgba(0,0,0,0.42);
 	-webkit-box-shadow: 3px 24px 105px -23px rgba(0,0,0,0.42);
 	-moz-box-shadow: 3px 24px 105px -23px rgba(0,0,0,0.42);
@@ -198,12 +202,12 @@
   }
   .nav-wrapper {
 	border-radius: 5px 5px 0 0;
-	border-bottom: 1px solid var(--borderColor);
 	grid-area: nav-wrapper;
+	background-color: black;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #b0c4de;
+	
   }
   #navigation {
 	margin: 0;
@@ -215,6 +219,8 @@
 	display: inline-block;
 	margin-right: 10px;
 	margin-left: 10px;
+	color: black;
+
   }
   .dots-wrapper {
 	display: flex;
@@ -336,7 +342,7 @@
 	
   }
   .autotype{
-	  color: #fec04f;
+	  color: black;
 	
 	  
   }
