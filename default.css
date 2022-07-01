@@ -20,7 +20,7 @@
   h1,
   strong {
 	color: var(--mainText);
-	font-family: "Helvetica Neue", bold;
+	
 	font-weight: 500px;
 	text-align: center;
   }
@@ -36,7 +36,6 @@
   input,
   textarea {
 	width: auto;
-	color: white;
 	font-family: "ProggryCleanTT", monospace;
   }
   .greeting-wrapper {
@@ -81,7 +80,6 @@
  .s3{
 	 height:105vh;
 	 background-color: var(--mainColor);
-	 width:100vh;
 	 display:flex;
 	 justify-content: center;
  }
@@ -96,17 +94,18 @@
 	  grid-gap: 10px;
   }
   .s2container .box {
-	  background: #FF8B28;
+	  background: #C9BAB0;
 	  object-fit: cover;
 	  padding: 20px;
 	  display: grid;
-	  font-size: 20px;
+	  font-size:16px;
+	  
 	  place-items:center;
 	  text-align:center;
 	  transition: 0.5s;
   }
   .s2container .box:hover {
-	  background: #C9BAB0;
+	  background: #fec02f;
 	  
 
   }
@@ -185,12 +184,12 @@
 	font-size: 16px;
   }
   #carrot {
-	  color: white;
+	  color: black;
   }
   
   .intro-wrapper {
 	border-radius: 10px 10px 0 0;
-	background-color: #36454F;
+	background-color: #878787;
 	box-shadow: 3px 24px 105px -23px rgba(0,0,0,0.42);
 	-webkit-box-shadow: 3px 24px 105px -23px rgba(0,0,0,0.42);
 	-moz-box-shadow: 3px 24px 105px -23px rgba(0,0,0,0.42);
@@ -201,6 +200,7 @@
 	  "left right";
   }
   .nav-wrapper {
+	color:white;
 	border-radius: 5px 5px 0 0;
 	grid-area: nav-wrapper;
 	background-color: black;
@@ -219,7 +219,8 @@
 	display: inline-block;
 	margin-right: 10px;
 	margin-left: 10px;
-	color: black;
+
+
 
   }
   .dots-wrapper {
@@ -271,7 +272,6 @@
 	height: 9vh;
 	transform: translateY(-70%);
 	font-size: 67px;
-	font-family: "La Belle Aurore", cursive;
 
   }
 
