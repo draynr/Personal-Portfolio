@@ -72,14 +72,20 @@ const Page = () => {
           </Paragraph>
           <Box align="center" my={3}>
             <NextLink href="/courses">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="blue">
+              <Button
+                rightIcon={<ChevronRightIcon />}
+                colorScheme={useColorModeValue("blue", "orange")}
+              >
                 Course Work
               </Button>
             </NextLink>
           </Box>
           <Box align="center" my={2}>
             <NextLink href="/projects">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="blue">
+              <Button
+                rightIcon={<ChevronRightIcon />}
+                colorScheme={useColorModeValue("blue", "orange")}
+              >
                 Projects
               </Button>
             </NextLink>
