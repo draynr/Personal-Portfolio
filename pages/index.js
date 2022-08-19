@@ -35,31 +35,28 @@ const Page = () => {
         >
           Hello, I&apos;m currently a student @ UC Berkeley.
         </Box>
-        <Box display={{ md: "flex" }}>
-          <Box flexGrow={1}>
-            <Heading as="h3" fontSize="45" variant="page-title">
-              Jason Dang
-            </Heading>
-            <p>"Everyday, I regret that I'm growing older." </p>
-          </Box>
-        </Box>
-        <Box
-          flexShrink={0}
-          mt={{ base: 4, md: 0 }}
-          ml={{ md: 6 }}
-          align="center"
-        >
-          <Image
-            borderColor={useColorModeValue("whiteAlpha.500", "whiteAlpha.800")}
-            borderWidth={2}
-            borderStyle="solid"
-            display="inline-block"
-            borderRadius="full"
-            src="/images/profile1.jpeg"
-            alt="Profile picture"
-          />
-        </Box>
         <Section delay={0.1}>
+          <Box display={{ md: "flex" }}>
+            <Box flexGrow={1} flexShrink={0}>
+              <Heading as="h3" fontSize="45" variant="page-title">
+                Jason Dang
+              </Heading>
+              <p>"Everyday, I regret that I'm growing older." </p>
+            </Box>
+            <Image
+              borderColor={useColorModeValue(
+                "whiteAlpha.500",
+                "whiteAlpha.800"
+              )}
+              borderWidth={2}
+              borderStyle="solid"
+              display="inline-block"
+              src="/images/profile1.jpeg"
+              alt="Profile picture"
+            />
+          </Box>
+        </Section>
+        <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
             What I am Currently Doing
           </Heading>
