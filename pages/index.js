@@ -2,7 +2,7 @@ import { Container, Box, Heading } from "@chakra-ui/react";
 const Page = () => {
   return (
     <Container>
-      <Box borderRadius="lg" bg="#FAF9F6" p={3} align="center" mb={6}>
+      <Box borderRadius="lg" bg="orange" p={3} align="center" mb={6}>
         Hello, I&apos;m currently a computer science student @ UC Berkeley.
       </Box>
       <Box display={{ md: "flex" }}>

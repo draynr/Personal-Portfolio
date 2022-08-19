@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next-build",
-	"start" : "next start",
+    "start": "next start",
     "prettier": "prettier -write .",
     "lint": "next lint"
   },
@@ -19,11 +19,10 @@
   "bugs": {
     "url": "https://github.com/draynr/draynr/issues"
   },
-  
   "homepage": "https://github.com/draynr/draynr#readme",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.3",
-    "@chakra-ui/react": "^2.2.1",
+    "@chakra-ui/react": "^2.2.8",
     "@chakra-ui/theme-tools": "^2.0.9",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
