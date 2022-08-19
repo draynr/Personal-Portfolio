@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Navbar from "../navbar"
+import Navbar from "../navbar";
 import { Box, Container } from "@chakra-ui/react";
 const Main = ({ children, router }) => {
   return (
@@ -10,9 +10,9 @@ const Main = ({ children, router }) => {
           content="width = device-width, 
                     initial-scale =1"
         />
-        <title> Jason Dang - Home page</title>
+        <title> Jason Dang - Portfolio</title>
       </Head>
-      <Navbar path = {router.asPath} />
+      <Navbar path={router.asPath} />
       <Container maxW="container.md" pt={14}>
         {children}
       </Container>
