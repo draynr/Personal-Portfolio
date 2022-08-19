@@ -14,7 +14,11 @@ import {
   IconButton,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { HamburgerIcon } from "@chakra-ui/icons";
+import {
+  HamburgerIcon,
+  TriangleDownIcon,
+  TriangleUpIcon,
+} from "@chakra-ui/icons";
 import Toggle from "./theme-toggle.js";
 const LinkItem = ({ href, path, children }) => {
   const active = path === href;
@@ -81,7 +85,7 @@ const Navbar = (props) => {
             <Menu>
               <MenuButton
                 as={IconButton}
-                icon={<HamburgerIcon />}
+                icon={<TriangleDownIcon />}
                 variant="outline"
                 aria-label="Options"
               />
