@@ -3,7 +3,7 @@ import { mode } from "@chakra-ui/theme-tools";
 const styles = {
   global: (props) => ({
     body: {
-      bg: mode("#f0e7db", "#202023")(props),
+      bg: mode("#f5f5dc", "#202023")(props),
     },
   }),
 };
@@ -30,10 +30,11 @@ const components = {
   },
 };
 const fonts = {
-  heading: "'M PLUS Rounded 1c'",
+  heading: "'M PLUS Rounded 1C'",
+  body: "'Rubik'",
 };
 const colors = {
-  grassTeal: "#88ccca",
+  grassTeal: "#D2B48C",
 };
 const config = {
   initialColorMode: "dark",

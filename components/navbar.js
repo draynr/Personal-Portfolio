@@ -42,6 +42,7 @@ const Navbar = (props) => {
       bg={useColorModeValue("#ffffff40", "#20202380")}
       style={{ backdropFilter: "blur(10px)" }}
       zIndex={2}
+      body="Silkscreen"
       {...props}
     >
       <Container
@@ -65,11 +66,14 @@ const Navbar = (props) => {
           flexGrow={1}
           mt={{ base: 4, nmd: 0 }}
         >
-          <LinkItem href="/projects" path={path}>
-            Projects
+          <LinkItem href="/courses" path={path}>
+            Courses
           </LinkItem>
           <LinkItem href="/journals" path={path}>
             Journals
+          </LinkItem>
+          <LinkItem href="/projects" path={path}>
+            Projects
           </LinkItem>
         </Stack>
         <Box flex={1} align="right">
@@ -86,11 +90,14 @@ const Navbar = (props) => {
                 <NextLink href="/about" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href="/projects" passHref>
-                  <MenuItem as={Link}>Projects</MenuItem>
+                <NextLink href="/courses" passHref>
+                  <MenuItem as={Link}>Courses</MenuItem>
                 </NextLink>
                 <NextLink href="/journals" passHref>
                   <MenuItem as={Link}>Journals</MenuItem>
+                </NextLink>
+                <NextLink href="/projects" passHref>
+                  <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
               </MenuList>
             </Menu>
