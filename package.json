@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next-build",
+	"start" : "next start",
     "prettier": "prettier -write .",
     "lint": "next lint"
   },
@@ -18,6 +19,7 @@
   "bugs": {
     "url": "https://github.com/draynr/draynr/issues"
   },
+  
   "homepage": "https://github.com/draynr/draynr#readme",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.3",
@@ -34,6 +36,7 @@
   "devDependencies": {
     "eslint": "^8.19.0",
     "eslint-config-next": "^12.2.2",
+    "gh-pages": "^4.0.0",
     "prettier": "^2.7.1"
   }
 }

@@ -36,7 +36,7 @@ const colors = {
   grassTeal: "#88ccca",
 };
 const config = {
-  initialColorMode: "system",
+  initialColorMode: "dark",
   useSystemColorMode: true,
 };
 const theme = extendTheme({
