@@ -3,7 +3,7 @@ import { mode } from "@chakra-ui/theme-tools";
 const styles = {
   global: (props) => ({
     body: {
-      bg: mode("#f5f5dc", "#202023")(props),
+      bg: mode("#E6DED0", "#202023")(props),
     },
   }),
 };
@@ -13,7 +13,7 @@ const components = {
     variants: {
       "section-title": {
         textDecoration: "underline",
-        fontSize: 20,
+        fontSize: 30,
         textUnderlineOffset: 6,
         textDecorationColor: "#525252",
         textDecorationThickness: 4,
@@ -30,7 +30,7 @@ const components = {
   },
 };
 const fonts = {
-  heading: "'M PLUS Rounded 1C'",
+  heading: "'Rubik Iso'",
   body: "'Rubik'",
 };
 const colors = {
