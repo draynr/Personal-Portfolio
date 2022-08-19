@@ -13,7 +13,7 @@ const courses = () => (
   <Layout title="Courses">
     <Container>
       <Heading as="h2" fontSize={25} align="center" mb={4}>
-        Courses Taken @ Berkeley
+        Course Work @ Berkeley
       </Heading>
       <Section delay={0.1}>
         <SimpleGrid columns={[2, 2, 4]} gap={6}>
