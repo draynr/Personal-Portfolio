@@ -42,7 +42,6 @@ const Navbar = (props) => {
       bg={useColorModeValue("#ffffff40", "#20202380")}
       style={{ backdropFilter: "blur(10px)" }}
       zIndex={2}
-      body="Silkscreen"
       {...props}
     >
       <Container
@@ -87,7 +86,7 @@ const Navbar = (props) => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="/about" passHref>
+                <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
                 <NextLink href="/courses" passHref>
