@@ -51,7 +51,7 @@ const Page = () => {
               borderWidth={2}
               borderStyle="solid"
               display="inline-block"
-              src="/images/profile1.jpeg"
+              src="/images/profile.jpeg"
               alt="Profile picture"
             />
           </Box>
