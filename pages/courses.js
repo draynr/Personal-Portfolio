@@ -9,38 +9,27 @@ import thumb70 from "../public/images/70.jpeg";
 import thumb170 from "../public/images/170.jpeg";
 import thumb188 from "../public/images/188.jpeg";
 import thumbd8 from "../public/images/d8.jpeg";
+import thumb161 from "../public/images/161.jpeg";
+import thumb134 from "../public/images/psych134.jpeg";
+import thumb135 from "../public/images/135.jpeg";
+import thumb1 from "../public/images/1.jpeg";
+import thumb16b from "../public/images/16b.jpeg";
+import thumb33a from "../public/images/33a.jpeg";
 const courses = () => (
   <Layout title="Courses">
     <Container>
-      <Heading as="h2" fontSize={25} align="center" mb={4}>
+      <Heading as="h2" fontSize={45} align="center" mb={5}>
         Course Work @ Berkeley
       </Heading>
       <Section delay={0.1}>
-        <SimpleGrid columns={[2, 2, 4]} gap={6}>
-          <GridItem
-            thumbnail={thumb61a}
-            title="CS 61A"
-            href="https://cs61a.org/"
-          ></GridItem>
-          <GridItem
-            thumbnail={thumb61b}
-            title="CS 61B"
-            href="https://inst.eecs.berkeley.edu/~cs61b/sp22/"
-          ></GridItem>
+        <Heading as="h3" fontSize={30} mb={4}>
+          Fall 2022
+        </Heading>
+        <SimpleGrid columns={[2, 2, 3]} gap={6}>
           <GridItem
             thumbnail={thumb61c}
             title="CS 61C"
             href="https://cs61c.org/"
-          ></GridItem>
-          <GridItem
-            thumbnail={thumb70}
-            title="CS 70"
-            href="https://www.eecs70.org/"
-          ></GridItem>
-          <GridItem
-            thumbnail={thumb170}
-            title="CS 170"
-            href="https://cs170.org/"
           ></GridItem>
           <GridItem
             thumbnail={thumb188}
@@ -48,10 +37,63 @@ const courses = () => (
             href="https://inst.eecs.berkeley.edu/~cs188/fa22/"
           ></GridItem>
           <GridItem
+            thumbnail={thumb161}
+            title="CS 161"
+            href="https://fa22.cs161.org/"
+          ></GridItem>
+          <GridItem
+            thumbnail={thumb134}
+            title="PSYCH 134"
+            href="https://fa22.cs161.org/"
+          ></GridItem>
+          <GridItem thumbnail={thumb135} title="UGBA 135"></GridItem>
+        </SimpleGrid>
+        <Heading as="h3" fontSize={30} mt={4} mb={4}>
+          Summer 2022
+        </Heading>
+        <SimpleGrid columns={[2, 2, 3]} gap={6}>
+          <GridItem
             thumbnail={thumbd8}
-            title="Data 8"
+            title="DATA 8"
             href="http://data8.org/fa22/"
           ></GridItem>
+        </SimpleGrid>
+        <Heading as="h3" fontSize={30} mt={4} mb={4}>
+          Spring 2022
+        </Heading>
+        <SimpleGrid columns={[2, 2, 3]} gap={6}>
+          <GridItem
+            thumbnail={thumb61b}
+            title="CS 61B"
+            href="https://inst.eecs.berkeley.edu/~cs61b/sp22/"
+          ></GridItem>
+          <GridItem
+            thumbnail={thumb170}
+            title="CS 170"
+            href="https://cs170.org/"
+          ></GridItem>
+          <GridItem
+            thumbnail={thumb16b}
+            title="EE 16B"
+            href="https://eecs16b.org/"
+          ></GridItem>
+          <GridItem thumbnail={thumb1} title="FRENCH 1"></GridItem>
+        </SimpleGrid>
+        <Heading as="h3" fontSize={30} mt={4} mb={4}>
+          Fall 2021
+        </Heading>
+        <SimpleGrid columns={[2, 2, 3]} gap={6}>
+          <GridItem
+            thumbnail={thumb61a}
+            title="CS 61A"
+            href="https://cs61a.org/"
+          ></GridItem>
+          <GridItem
+            thumbnail={thumb70}
+            title="CS 70"
+            href="https://www.eecs70.org/"
+          ></GridItem>
+          <GridItem thumbnail={thumb33a} title="STAT 33A"></GridItem>
         </SimpleGrid>
       </Section>
     </Container>
