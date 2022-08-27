@@ -51,7 +51,7 @@ const Page = () => {
               borderWidth={2}
               borderStyle="solid"
               display="inline-block"
-              src="/images/profile.jpeg"
+              src="/images/profile.jpg"
               alt="Profile picture"
             />
           </Box>
@@ -109,7 +109,7 @@ const Page = () => {
             Completed studies at LRCCD
           </TimelineSection>
           <TimelineSection>
-            <TimelineYear>Aug'22-Present</TimelineYear>
+            <TimelineYear>Aug'21-Present</TimelineYear>
             Attending University of California, Berkeley
           </TimelineSection>
         </Section>

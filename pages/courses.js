@@ -41,11 +41,7 @@ const courses = () => (
             title="CS 161"
             href="https://fa22.cs161.org/"
           ></GridItem>
-          <GridItem
-            thumbnail={thumb134}
-            title="PSYCH 134"
-            href="https://fa22.cs161.org/"
-          ></GridItem>
+          <GridItem thumbnail={thumb134} title="PSYCH 134"></GridItem>
           <GridItem thumbnail={thumb135} title="UGBA 135"></GridItem>
         </SimpleGrid>
         <Heading as="h3" fontSize={30} mt={4} mb={4}>
