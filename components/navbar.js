@@ -88,8 +88,15 @@ const Navbar = (props) => {
                 icon={<TriangleDownIcon />}
                 variant="outline"
                 aria-label="Options"
+                borderRadius="full"
+                _expanded={{
+                  bg: useColorModeValue("blue.400", "orange.200"),
+                }}
               />
-              <MenuList>
+              <MenuList
+                color={useColorModeValue("black", "black")}
+                bg={useColorModeValue("blue.400", "orange.200")}
+              >
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>

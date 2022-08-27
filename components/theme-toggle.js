@@ -8,6 +8,7 @@ const Toggle = () => {
       aria-label="Toggles the theme"
       colorScheme={useColorModeValue("blue", "orange")}
       icon={useColorModeValue(<MoonIcon />, <SunIcon />)}
+      borderRadius="full"
       onClick={toggleColorMode}
     ></IconButton>
   );
