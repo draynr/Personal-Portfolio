@@ -33,15 +33,18 @@ const Page = () => {
           p={3}
           mb={6}
         >
-          Hello, I&apos;m currently a student @ UC Berkeley.
+          hello, i&apos;m currently a student.
         </Box>
         <Section delay={0.1}>
           <Box display={{ md: "flex" }}>
             <Box flexGrow={1} flexShrink={0}>
               <Heading as="h3" fontSize="45" variant="page-title">
-                Jason Dang
+                jason dang
               </Heading>
-              <p>"Everyday, I regret that I'm growing older." </p>
+              <p>
+                it's never about how high we can go, but rather, how high we
+                want to go
+              </p>
             </Box>
             <Image
               borderColor={useColorModeValue(
@@ -51,21 +54,18 @@ const Page = () => {
               borderWidth={2}
               borderStyle="solid"
               display="inline-block"
-              src="/images/profile.jpg"
+              src="/images/profile.jpeg"
               alt="Profile picture"
             />
           </Box>
         </Section>
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            What I am Currently Doing
+            what i am currently doing
           </Heading>
           <Paragraph>
             {" "}
-            I would like to think I am still quite young, so I enjoy playing
-            video games to waste time. Ocassionally, I will pick up a book, but,
-            mostly, I am a homebody and extremely lazy. I will browse YouTube
-            and, before I know it, the day will be over :(
+            finishing up college. wanting to travel. learning how to live.{" "}
           </Paragraph>
           <Box align="center" my={3}>
             <NextLink href="/courses">
@@ -73,7 +73,7 @@ const Page = () => {
                 rightIcon={<ChevronRightIcon />}
                 colorScheme={useColorModeValue("blue", "orange")}
               >
-                Course Work
+                courses
               </Button>
             </NextLink>
           </Box>
@@ -83,39 +83,39 @@ const Page = () => {
                 rightIcon={<ChevronRightIcon />}
                 colorScheme={useColorModeValue("blue", "orange")}
               >
-                Projects
+                projects
               </Button>
             </NextLink>
           </Box>
         </Section>
         <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
-            Timeline
+            timeline
           </Heading>
           <TimelineSection>
             <TimelineYear> April'02</TimelineYear>
-            Born in Sacramento, California
+            born in sacramento, california
           </TimelineSection>
           <TimelineSection>
             <TimelineYear>Jul'19-Apr'20</TimelineYear>
-            Contracted through Volt to intern at Apple
+            volt | apple internship
           </TimelineSection>
           <TimelineSection>
             <TimelineYear>May'20</TimelineYear>
-            Graduated Franklin High School
+            graduated franklin high school
           </TimelineSection>
           <TimelineSection>
             <TimelineYear>Aug'20-May'21</TimelineYear>
-            Completed studies at LRCCD
+            attended LRCCD
           </TimelineSection>
           <TimelineSection>
             <TimelineYear>Aug'21-Present</TimelineYear>
-            Attending University of California, Berkeley
+            attending university of california, berkeley
           </TimelineSection>
         </Section>
         <Section delay={0.9}>
           <Heading as="h3" variant="section-title">
-            Links
+            links
           </Heading>
           <Link href="https://github.com/draynr" target="_blank">
             <Button

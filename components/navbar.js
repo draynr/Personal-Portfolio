@@ -70,13 +70,10 @@ const Navbar = (props) => {
           mt={{ base: 4, nmd: 0 }}
         >
           <LinkItem href="/courses" path={path}>
-            Courses
-          </LinkItem>
-          <LinkItem href="/journals" path={path}>
-            Journals
+            courses
           </LinkItem>
           <LinkItem href="/projects" path={path}>
-            Projects
+            projects
           </LinkItem>
         </Stack>
         <Box flex={1} align="right">
@@ -98,16 +95,13 @@ const Navbar = (props) => {
                 bg={useColorModeValue("blue.400", "orange.200")}
               >
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                  <MenuItem as={Link}>about</MenuItem>
                 </NextLink>
                 <NextLink href="/courses" passHref>
-                  <MenuItem as={Link}>Courses</MenuItem>
-                </NextLink>
-                <NextLink href="/journals" passHref>
-                  <MenuItem as={Link}>Journals</MenuItem>
+                  <MenuItem as={Link}>courses</MenuItem>
                 </NextLink>
                 <NextLink href="/projects" passHref>
-                  <MenuItem as={Link}>Projects</MenuItem>
+                  <MenuItem as={Link}>projects</MenuItem>
                 </NextLink>
               </MenuList>
             </Menu>

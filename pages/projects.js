@@ -18,21 +18,8 @@ const Projects = () => {
         </Heading>
         <SimpleGrid columns={[1, 1, 3]} gap={6}>
           <Section delay={0.1}>
-            <ProjectsGridItem
-              id="unity-game"
-              title="Unity Game"
-              thumbnail={wip}
-            >
-              Currently working on 2d top-down rpg.
-            </ProjectsGridItem>
-          </Section>
-          <Section delay={0.3}>
-            <ProjectsGridItem
-              id="website"
-              title="Personal Website"
-              thumbnail={site}
-            >
-              Built a personal portfolio to display resume and upload posts.
+            <ProjectsGridItem id="website" title="website" thumbnail={site}>
+              Built a personal portfolio because everyone has one.
             </ProjectsGridItem>
           </Section>
         </SimpleGrid>
@@ -40,7 +27,7 @@ const Projects = () => {
           Course Projects
         </Heading>
         <SimpleGrid columns={[1, 1, 3]} gap={6}>
-          <Section delay={0.8}>
+          <Section delay={0.3}>
             <ProjectsGridItem
               id="gitlet"
               title="Gitlet"
