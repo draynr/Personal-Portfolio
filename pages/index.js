@@ -41,10 +41,10 @@ const Page = () => {
               <Heading as="h3" fontSize="45" variant="page-title">
                 jason dang
               </Heading>
-              <p>
-                it's never about how high we can go, but rather, how high we
-                want to go
-              </p>
+              <Paragraph>
+                it's never about how high we can go,<br></br>{" "}
+                <Paragraph> but rather, how high we want to go</Paragraph>
+              </Paragraph>
             </Box>
             <Image
               borderColor={useColorModeValue(
