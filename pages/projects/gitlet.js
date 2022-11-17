@@ -16,11 +16,13 @@ const gitlet = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source </Meta>
-            <Link href="www.google.com">github.com </Link>
+            <Link href="https://www.youtube.com/watch?v=A3Zo54GyLJ8&list=RDA3Zo54GyLJ8&start_radio=1">
+              sorry can't post course material, but click this{" "}
+            </Link>
           </ListItem>
           <ListItem>
             <Meta>Tools</Meta>
-            <span>Java, Git, Object-Orient Programming</span>
+            <span>java, git, oop</span>
           </ListItem>
         </List>
       </Container>

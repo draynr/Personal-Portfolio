@@ -3,5 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/projects": "pages/projects.js",
-  "/courses": "pages/courses.js"
+  "/projects/website": "pages/projects/website.js",
+  "/projects/website_mobile": "pages/projects/website_mobile.js"
 }
