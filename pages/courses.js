@@ -19,11 +19,11 @@ const courses = () => (
   <Layout title="Courses">
     <Container>
       <Heading as="h2" fontSize={45} align="center" mb={5}>
-        Course Work @ Berkeley
+        course work
       </Heading>
       <Section delay={0.1}>
         <Heading as="h3" fontSize={30} mb={4}>
-          Fall 2022
+          fall 2022
         </Heading>
         <SimpleGrid columns={[2, 2, 3]} gap={6}>
           <GridItem
@@ -41,11 +41,10 @@ const courses = () => (
             title="CS 161"
             href="https://fa22.cs161.org/"
           ></GridItem>
-          <GridItem thumbnail={thumb134} title="PSYCH 134"></GridItem>
           <GridItem thumbnail={thumb135} title="UGBA 135"></GridItem>
         </SimpleGrid>
         <Heading as="h3" fontSize={30} mt={4} mb={4}>
-          Summer 2022
+          summer 2022
         </Heading>
         <SimpleGrid columns={[2, 2, 3]} gap={6}>
           <GridItem
@@ -55,7 +54,7 @@ const courses = () => (
           ></GridItem>
         </SimpleGrid>
         <Heading as="h3" fontSize={30} mt={4} mb={4}>
-          Spring 2022
+          spring 2022
         </Heading>
         <SimpleGrid columns={[2, 2, 3]} gap={6}>
           <GridItem
@@ -76,7 +75,7 @@ const courses = () => (
           <GridItem thumbnail={thumb1} title="FRENCH 1"></GridItem>
         </SimpleGrid>
         <Heading as="h3" fontSize={30} mt={4} mb={4}>
-          Fall 2021
+          fall 2021
         </Heading>
         <SimpleGrid columns={[2, 2, 3]} gap={6}>
           <GridItem

@@ -23,6 +23,9 @@ import {
   IoLogoLinkedin,
   IoLogoGithub,
 } from "react-icons/io5";
+import NoSsr from "/components/no-ssr.js";
+import Voxel1 from "/components/animatex.js";
+
 const Page = () => {
   return (
     <Layout>
@@ -42,8 +45,7 @@ const Page = () => {
                 jason dang
               </Heading>
               <Paragraph>
-                it's never about how high we can go,<br></br>{" "}
-                <Paragraph> but rather, how high we want to go</Paragraph>
+                <i>c'est la vie</i>
               </Paragraph>
             </Box>
             <Image
@@ -63,6 +65,7 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             what i am currently doing
           </Heading>
+
           <Paragraph>
             {" "}
             finishing up college. wanting to travel. learning how to live.{" "}
@@ -88,6 +91,9 @@ const Page = () => {
             </NextLink>
           </Box>
         </Section>
+        <NoSsr>
+          <Voxel1 />
+        </NoSsr>
         <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
             timeline
