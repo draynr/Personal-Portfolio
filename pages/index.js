@@ -66,8 +66,8 @@ const Page = () => {
               </h2>
             </Box>
             <Image
-              borderColor={useColorModeValue("black", "whiteAlpha.800")}
-              borderWidth={3}
+              borderColor={useColorModeValue("blue.500", "whiteAlpha.800")}
+              borderWidth={10}
               borderStyle="solid"
               borderRadius="full"
               display="inline-block"
