@@ -31,9 +31,25 @@
       "static/chunks/pages/_error.js"
     ],
     "/courses": [
+<<<<<<< HEAD
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/courses.js"
+=======
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/courses.js"
+    ],
+    "/projects": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/projects.js"
+    ],
+    "/projects/recente_cast": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/projects/recente_cast.js"
+>>>>>>> 4f4a1cbc3034a18c3c568fda6a8bbde56afd718b
     ]
   },
   "ampFirstPages": []
