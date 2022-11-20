@@ -66,14 +66,12 @@ const Page = () => {
               </h2>
             </Box>
             <Image
-              borderColor={useColorModeValue(
-                "whiteAlpha.500",
-                "whiteAlpha.800"
-              )}
-              borderWidth={2}
+              borderColor={useColorModeValue("black", "whiteAlpha.800")}
+              borderWidth={3}
               borderStyle="solid"
+              borderRadius="full"
               display="inline-block"
-              src="/images/profile.jpeg"
+              src="/images/profile.png"
               alt="Profile picture"
             />
           </Box>
