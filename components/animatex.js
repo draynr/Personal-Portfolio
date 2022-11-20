@@ -12,7 +12,7 @@ function rotateOut(x) {
 }
 
 const Voxel1 = () => {
-  const url = "/pc.glb";
+  const url = "../pc.glb";
 
   const refContainer = useRef();
   const [loading, setLoading] = useState(true);

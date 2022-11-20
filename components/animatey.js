@@ -12,8 +12,6 @@ function rotateOut(x) {
 }
 
 const Voxel = () => {
-  const url = "/medieval_bookcase.glb";
-
   const refContainer = useRef();
   const [loading, setLoading] = useState(true);
   const refRenderer = useRef();
