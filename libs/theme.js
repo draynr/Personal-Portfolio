@@ -30,7 +30,7 @@ const components = {
   },
 };
 const fonts = {
-  heading: "'Rubik Iso'",
+  heading: "Josefin Sans",
   body: "'Rubik'",
 };
 const colors = {

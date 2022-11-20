@@ -54,7 +54,7 @@ const Projects = () => {
           </Section>
         </SimpleGrid>
         <Heading as="h3" fontSize={40} mb={6}>
-          fav course projects
+          memorable course projects
         </Heading>
         <SimpleGrid columns={[1, 1, 3]} gap={6}>
           <Section delay={0.3}>

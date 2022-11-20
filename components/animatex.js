@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { Box, Spinner, calc, Container } from "@chakra-ui/react";
+import { Box, Spinner, calc, Container, Tr } from "@chakra-ui/react";
 import { useState, useEffect, useRef, useCallback } from "react";
 import { Vector3 } from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
@@ -74,6 +74,9 @@ const Voxel1 = () => {
       const controls = new OrbitControls(camera, renderer.domElement);
       controls.autoRotate = true;
       controls.target = target;
+      controls.autoRotateSpeed = 0.15;
+      controls.enableDamping = true;
+      controls.enablePan = false;
 
       loadGLTFModel(scene, url, {
         receiveShadow: false,
@@ -90,20 +93,7 @@ const Voxel1 = () => {
 
         frame = frame <= 100 ? frame + 1 : frame;
 
-        if (frame <= 100) {
-          const p = initialCameraPosition;
-          const rotSpeed = -rotateOut(frame / 120) * Math.PI * 20;
-
-          camera.position.y = 10;
-          camera.position.x =
-            p.x * Math.cos(rotSpeed) + p.z * Math.sin(rotSpeed);
-          camera.position.z =
-            p.z * Math.cos(rotSpeed) - p.x * Math.sin(rotSpeed);
-          camera.lookAt(target);
-        } else {
-          controls.update();
-        }
-
+        controls.update();
         renderer.render(scene, camera);
       };
 

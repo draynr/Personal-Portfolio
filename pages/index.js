@@ -25,6 +25,22 @@ import {
 } from "react-icons/io5";
 import NoSsr from "/components/no-ssr.js";
 import Voxel1 from "/components/animatex.js";
+import ReactTextRotator from "react-text-rotator";
+var ReactRotatingText = require("react-rotating-text");
+const array = [
+  "C'est la vie",
+  "Such is life",
+  "L’habit ne fait pas le moine",
+  "Xin Chào",
+  "안녕하세요",
+  "Guten Tag",
+  "Aloha",
+  "روز خوب",
+  "Qui vivra verra",
+  "Time will tell",
+  "你好",
+];
+const shuffledItems = array.sort((a, b) => 0.5 - Math.random());
 
 const Page = () => {
   return (
@@ -36,17 +52,18 @@ const Page = () => {
           p={3}
           mb={6}
         >
-          hello, i&apos;m currently a student.
+          Hello, i&apos;m currently a student.
         </Box>
         <Section delay={0.1}>
           <Box display={{ md: "flex" }}>
             <Box flexGrow={1} flexShrink={0}>
               <Heading as="h3" fontSize="45" variant="page-title">
-                jason dang
+                Jason Dang
               </Heading>
-              <Paragraph>
-                <i>c'est la vie</i>
-              </Paragraph>
+
+              <h2>
+                <ReactRotatingText items={shuffledItems} />
+              </h2>
             </Box>
             <Image
               borderColor={useColorModeValue(
@@ -63,13 +80,13 @@ const Page = () => {
         </Section>
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            what i am currently doing
+            about me?
           </Heading>
 
-          <Paragraph>
-            {" "}
-            finishing up college. wanting to travel. learning how to live.{" "}
-          </Paragraph>
+          <p>
+            i'm twenty years old. finishing up college. longing to travel.
+            learning how to live. discovering what i want to do.
+          </p>
           <Box align="center" my={3}>
             <NextLink href="/courses">
               <Button
