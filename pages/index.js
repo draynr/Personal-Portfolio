@@ -54,7 +54,7 @@ const Page = () => {
         >
           Hello, i&apos;m currently a student.
         </Box>
-        <Section delay={0.1}>
+        <Section delay={0.2}>
           <Box display={{ md: "flex" }}>
             <Box flexGrow={1} flexShrink={0}>
               <Heading as="h3" fontSize="45" variant="page-title">
@@ -78,7 +78,12 @@ const Page = () => {
             />
           </Box>
         </Section>
-        <Section delay={0.2}>
+        <Section delay={0.5}>
+          <NoSsr>
+            <Voxel1 />
+          </NoSsr>
+        </Section>
+        <Section delay={0.8}>
           <Heading as="h3" variant="section-title">
             about me?
           </Heading>
@@ -108,10 +113,7 @@ const Page = () => {
             </NextLink>
           </Box>
         </Section>
-        <NoSsr>
-          <Voxel1 />
-        </NoSsr>
-        <Section delay={0.4}>
+        <Section delay={1.1}>
           <Heading as="h3" variant="section-title">
             timeline
           </Heading>
@@ -136,7 +138,7 @@ const Page = () => {
             attending university of california, berkeley
           </TimelineSection>
         </Section>
-        <Section delay={0.9}>
+        <Section delay={1.5}>
           <Heading as="h3" variant="section-title">
             links
           </Heading>

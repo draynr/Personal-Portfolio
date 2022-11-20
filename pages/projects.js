@@ -25,7 +25,7 @@ const Projects = () => {
               built a personal portfolio because everyone has one.
             </ProjectsGridItem>
           </Section>
-          <Section delay={0.2}>
+          <Section delay={0.3}>
             <ProjectsGridItem
               id="website_mobile"
               title="webview"
@@ -34,7 +34,7 @@ const Projects = () => {
               personal site rendered through Flutter Webview
             </ProjectsGridItem>
           </Section>
-          <Section delay={0.3}>
+          <Section delay={0.4}>
             <ProjectsGridItem
               id="music_recommendation"
               title="music recommendation"
@@ -43,7 +43,7 @@ const Projects = () => {
               recommends songs based on spotify playlist preferences
             </ProjectsGridItem>
           </Section>
-          <Section delay={0.4}>
+          <Section delay={0.5}>
             <ProjectsGridItem
               id="recente_cast"
               title="recente cast"
@@ -53,11 +53,13 @@ const Projects = () => {
             </ProjectsGridItem>
           </Section>
         </SimpleGrid>
-        <Heading as="h3" fontSize={40} mb={6}>
-          memorable course projects
-        </Heading>
+        <Section delay={0.8}>
+          <Heading as="h3" fontSize={40} mb={6}>
+            memorable course projects
+          </Heading>
+        </Section>
         <SimpleGrid columns={[1, 1, 3]} gap={6}>
-          <Section delay={0.3}>
+          <Section delay={0.95}>
             <ProjectsGridItem
               id="gitlet"
               title="gitlet"
