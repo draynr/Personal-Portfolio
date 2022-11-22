@@ -142,10 +142,7 @@ const Page = () => {
           </Heading>
           <Section delay={1.7}>
             <Heading as="h6" size="sm">
-              <LinkPreviewer
-                href="/running"
-                image="https://thepracticaldev.s3.amazonaws.com/i/6hqmcjaxbgbon8ydw93z.png"
-              >
+              <LinkPreviewer href="/running" image="../public/images/run01.png">
                 running
               </LinkPreviewer>
             </Heading>

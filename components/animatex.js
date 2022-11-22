@@ -49,21 +49,21 @@ const Voxel1 = () => {
 
       const target = new THREE.Vector3(-0.5, 1.2, 0);
       const initialCameraPosition = new THREE.Vector3(
-        20 * Math.sin(0.2 * Math.PI),
+        100 * Math.sin(0.2 * Math.PI),
         10,
         20 * Math.cos(0.2 * Math.PI)
       );
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.005 + 4.8;
+      const scale = scH * 0.005;
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
         scale,
         -scale,
-        0.01,
-        50000
+        10,
+        100000
       );
       camera.position.copy(initialCameraPosition);
       camera.lookAt(target);
@@ -74,7 +74,7 @@ const Voxel1 = () => {
       const controls = new OrbitControls(camera, renderer.domElement);
       controls.autoRotate = true;
       controls.target = target;
-      controls.autoRotateSpeed = 0.5;
+      controls.autoRotateSpeed = 0.75;
       controls.enableDamping = true;
       controls.enablePan = false;
 
@@ -109,8 +109,8 @@ const Voxel1 = () => {
       ref={refContainer}
       className="animation1"
       m="auto"
-      at={["-20px", "-60px", "-120px"]}
-      mb={["-40px", "-140px", "-200px"]}
+      at={["-20px", "-60px", "-10px"]}
+      mb={["-40px", "-140px", "-30px"]}
       w={[280, 480, 640]}
       h={[280, 480, 640]}
       position="relative"
