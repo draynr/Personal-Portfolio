@@ -25,7 +25,7 @@ import {
 } from "react-icons/io5";
 import NoSsr from "/components/no-ssr.js";
 import Voxel1 from "/components/animatex.js";
-import { LinkPreviewer } from "../components/LinkPreviewer.js";
+import { LinkPreviewer } from "../components/linkpreviewer";
 var ReactRotatingText = require("react-rotating-text");
 const array = [
   "C'est la vie",
