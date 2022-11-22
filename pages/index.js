@@ -144,18 +144,15 @@ const Page = () => {
             <Heading as="h6" size="sm">
               <LinkPreviewer
                 href="/running"
+                text="running"
                 image="https://thepracticaldev.s3.amazonaws.com/i/6hqmcjaxbgbon8ydw93z.png"
-              >
-                <Heading as="h6" size="sm">
-                  running
-                </Heading>
-              </LinkPreviewer>
+              ></LinkPreviewer>
             </Heading>
             <Paragraph>
               i've never really been a fan of going to the gym and working out
               with weights. so, in my eyes, the alternative is to run. it's
-              nice, it's like taking walk and observing the scenery around me,
-              but also i'm getitng the more intense physical workout
+              nice; it's like taking walk and observing the scenery around me,
+              but also i'm getting an intense physical workout
             </Paragraph>
           </Section>
           <Section delay={1.9}>
@@ -184,7 +181,7 @@ const Page = () => {
                 fashion
               </LinkPreviewer>
             </Heading>
-            <Paragraph>
+            <Paragraph color>
               clearly i'm not the most fashionable person, but for some odd
               reason, i genuinely enjoy waking up and choosing my outfit for the
               day. it's one of the few things i can look forward to every
