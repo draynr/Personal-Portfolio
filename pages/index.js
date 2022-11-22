@@ -25,7 +25,7 @@ import {
 } from "react-icons/io5";
 import NoSsr from "/components/no-ssr.js";
 import Voxel1 from "/components/animatex.js";
-import ReactTextRotator from "react-text-rotator";
+import { LinkPreviewer } from "../components/LinkPreviewer.js";
 var ReactRotatingText = require("react-rotating-text");
 const array = [
   "C'est la vie",
@@ -52,7 +52,7 @@ const Page = () => {
           p={3}
           mb={6}
         >
-          Hello, i&apos;m currently a student.
+          hello, i&apos;m currently a student.
         </Box>
         <Section delay={0.2}>
           <Box display={{ md: "flex" }}>
@@ -137,6 +137,62 @@ const Page = () => {
           </TimelineSection>
         </Section>
         <Section delay={1.5}>
+          <Heading as="h3" variant="section-title">
+            hobbies?
+          </Heading>
+          <Section delay={1.7}>
+            <Heading as="h6" size="sm">
+              <LinkPreviewer
+                href="/running"
+                image="https://thepracticaldev.s3.amazonaws.com/i/6hqmcjaxbgbon8ydw93z.png"
+              >
+                <Heading as="h6" size="sm">
+                  running
+                </Heading>
+              </LinkPreviewer>
+            </Heading>
+            <Paragraph>
+              i've never really been a fan of going to the gym and working out
+              with weights. so, in my eyes, the alternative is to run. it's
+              nice, it's like taking walk and observing the scenery around me,
+              but also i'm getitng the more intense physical workout
+            </Paragraph>
+          </Section>
+          <Section delay={1.9}>
+            <Heading as="h6" size="sm">
+              <LinkPreviewer
+                href="/music"
+                image="https://thepracticaldev.s3.amazonaws.com/i/6hqmcjaxbgbon8ydw93z.png"
+              >
+                music
+              </LinkPreviewer>
+            </Heading>
+            <Paragraph>
+              i actually used to dislike any other music than pop. i only
+              listened to songs from the radio back then (like classic 2010s
+              pop). however, i remember in 2016 i started listening to
+              xxxtentacion, and since then, i started appreciating other sounds
+              and genres of music.
+            </Paragraph>
+          </Section>
+          <Section delay={2}>
+            <Heading as="h6" size="sm">
+              <LinkPreviewer
+                href="/fashion"
+                image="https://thepracticaldev.s3.amazonaws.com/i/6hqmcjaxbgbon8ydw93z.png"
+              >
+                fashion
+              </LinkPreviewer>
+            </Heading>
+            <Paragraph>
+              clearly i'm not the most fashionable person, but for some odd
+              reason, i genuinely enjoy waking up and choosing my outfit for the
+              day. it's one of the few things i can look forward to every
+              morning.
+            </Paragraph>
+          </Section>
+        </Section>
+        <Section delay={2.5}>
           <Heading as="h3" variant="section-title">
             links
           </Heading>

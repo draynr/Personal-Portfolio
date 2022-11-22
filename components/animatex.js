@@ -74,7 +74,7 @@ const Voxel1 = () => {
       const controls = new OrbitControls(camera, renderer.domElement);
       controls.autoRotate = true;
       controls.target = target;
-      controls.autoRotateSpeed = 0.15;
+      controls.autoRotateSpeed = 0.5;
       controls.enableDamping = true;
       controls.enablePan = false;
 
