@@ -1,7 +1,5 @@
 import Head from "next/head";
-import NoSsr from "../no-ssr";
 import Navbar from "../navbar";
-import Voxel from "../animatex";
 
 import { Box, Container } from "@chakra-ui/react";
 const Main = ({ children, router }) => {
@@ -16,7 +14,7 @@ const Main = ({ children, router }) => {
         <title> Jason Dang </title>
       </Head>
       <Navbar path={router.asPath} />
-      <Container maxW="container.md" pt={14}>
+      <Container maxW="container.md" pt={20}>
         {children}
       </Container>
     </Box>

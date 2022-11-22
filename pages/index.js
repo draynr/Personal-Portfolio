@@ -144,9 +144,10 @@ const Page = () => {
             <Heading as="h6" size="sm">
               <LinkPreviewer
                 href="/running"
-                text="running"
                 image="https://thepracticaldev.s3.amazonaws.com/i/6hqmcjaxbgbon8ydw93z.png"
-              ></LinkPreviewer>
+              >
+                running
+              </LinkPreviewer>
             </Heading>
             <Paragraph>
               i've never really been a fan of going to the gym and working out
