@@ -7,10 +7,6 @@ import { render } from "react-dom";
 import { loadGLTFModel } from "../libs/model";
 import { IoPizza } from "react-icons/io5";
 
-function rotateOut(x) {
-  return Math.sqrt(1 - Math.pow(x - 1, 4));
-}
-
 const Voxel1 = () => {
   const url = "/pc.glb";
 
@@ -110,7 +106,7 @@ const Voxel1 = () => {
       className="animation1"
       m="auto"
       at={["-20px", "-60px", "-10px"]}
-      mb={["-40px", "-140px", "-30px"]}
+      mb={["-40px", "-20px", "-20px"]}
       w={[280, 480, 640]}
       h={[280, 480, 640]}
       position="relative"

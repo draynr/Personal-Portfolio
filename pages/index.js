@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 import NextLink from "next/link";
 import Layout from "../components/layouts/article.js";
-import { ChevronRightIcon } from "@chakra-ui/icons";
+import { LinkIcon, ChevronRightIcon } from "@chakra-ui/icons";
 import Section from "../components/section.js";
 import Paragraph from "../components/paragraph.js";
 import { GridItem } from "../components/grid_item";
@@ -140,52 +140,52 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             hobbies?
           </Heading>
-          <Section delay={1.7}>
-            <Heading as="h6" size="sm">
-              <LinkPreviewer href="/running" image="../public/images/run01.png">
-                running
+          <Box align="center">
+            <Section delay={1.7}>
+              <LinkPreviewer
+                href="/running"
+                image="https://thepracticaldev.s3.amazonaws.com/i/6hqmcjaxbgbon8ydw93z.png"
+              >
+                <Button
+                  rightIcon={<LinkIcon />}
+                  colorScheme={useColorModeValue("blue", "orange")}
+                >
+                  running
+                </Button>
               </LinkPreviewer>
-            </Heading>
-            <Paragraph>
-              i've never really been a fan of going to the gym and working out
-              with weights. so, in my eyes, the alternative is to run. it's
-              nice; it's like taking walk and observing the scenery around me,
-              but also i'm getting an intense physical workout
-            </Paragraph>
-          </Section>
-          <Section delay={1.9}>
-            <Heading as="h6" size="sm">
+              <Paragraph></Paragraph>
+            </Section>
+          </Box>
+          <Box align="center" my={3}>
+            <Section delay={1.9}>
               <LinkPreviewer
                 href="/music"
                 image="https://thepracticaldev.s3.amazonaws.com/i/6hqmcjaxbgbon8ydw93z.png"
               >
-                music
+                <Button
+                  rightIcon={<LinkIcon />}
+                  colorScheme={useColorModeValue("blue", "orange")}
+                >
+                  music
+                </Button>
               </LinkPreviewer>
-            </Heading>
-            <Paragraph>
-              i actually used to dislike any other music than pop. i only
-              listened to songs from the radio back then (like classic 2010s
-              pop). however, i remember in 2016 i started listening to
-              xxxtentacion, and since then, i started appreciating other sounds
-              and genres of music.
-            </Paragraph>
-          </Section>
-          <Section delay={2}>
-            <Heading as="h6" size="sm">
+            </Section>
+          </Box>
+          <Box align="center">
+            <Section delay={2}>
               <LinkPreviewer
                 href="/fashion"
                 image="https://thepracticaldev.s3.amazonaws.com/i/6hqmcjaxbgbon8ydw93z.png"
               >
-                fashion
+                <Button
+                  rightIcon={<LinkIcon />}
+                  colorScheme={useColorModeValue("blue", "orange")}
+                >
+                  fashion
+                </Button>
               </LinkPreviewer>
-            </Heading>
-            <Paragraph color>
-              clearly i'm not the most fashionable person, but for some odd
-              reason, i genuinely enjoy waking up and choosing my outfit for the
-              day. it's one of the few things i can look forward to every
-              morning.
-            </Paragraph>
-          </Section>
+            </Section>
+          </Box>
         </Section>
         <Section delay={2.5}>
           <Heading as="h3" variant="section-title">
