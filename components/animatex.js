@@ -105,7 +105,7 @@ const Voxel1 = () => {
       ref={refContainer}
       className="animation1"
       m="auto"
-      at={["-20px", "-60px", "-10px"]}
+      at={["-20px", "-20px", "-10px"]}
       mb={["-40px", "-20px", "-20px"]}
       w={[280, 480, 640]}
       h={[280, 480, 640]}
