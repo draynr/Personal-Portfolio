@@ -10,11 +10,15 @@ import thumb170 from "../public/images/170.jpeg";
 import thumb188 from "../public/images/188.jpeg";
 import thumbd8 from "../public/images/d8.jpeg";
 import thumb161 from "../public/images/161.jpeg";
-import thumb134 from "../public/images/psych134.jpeg";
-import thumb135 from "../public/images/135.jpeg";
+import thumb135 from "../public/images/135.png";
 import thumb1 from "../public/images/1.jpeg";
 import thumb16b from "../public/images/16b.jpeg";
 import thumb33a from "../public/images/33a.jpeg";
+import thumb189 from "../public/images/machine-learning.png";
+import thumb100 from "../public/images/data100.png";
+
+import thumb104 from "../public/images/ethics.png";
+import thumb182 from "../public/images/neural-network.png";
 const courses = () => (
   <Layout title="Courses">
     <Container>
@@ -22,6 +26,33 @@ const courses = () => (
         course work
       </Heading>
       <Section delay={0.2}>
+        <Heading as="h3" fontSize={30} mb={4}>
+          spring 2023
+        </Heading>
+        <Section delay={0.4}>
+          <SimpleGrid columns={[2, 2, 3]} gap={6}>
+            <GridItem
+              thumbnail={thumb189}
+              title="CS 189"
+              href="https://www.eecs189.org/"
+            ></GridItem>
+            <GridItem
+              thumbnail={thumb182}
+              title="CS 182"
+              href="https://inst.eecs.berkeley.edu/~cs182/fa22/"
+            ></GridItem>
+            <GridItem
+              thumbnail={thumb100}
+              title="DATA 100"
+              href="https://ds100.org/"
+            ></GridItem>
+            <GridItem
+              thumbnail={thumb104}
+              title="DATA 104"
+              href="https://data.berkeley.edu/data-104-human-contexts-and-ethics-data"
+            ></GridItem>
+          </SimpleGrid>
+        </Section>
         <Heading as="h3" fontSize={30} mb={4}>
           fall 2022
         </Heading>
