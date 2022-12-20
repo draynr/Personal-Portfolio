@@ -140,52 +140,10 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             hobbies?
           </Heading>
-          <Box align="center">
-            <Section delay={1.7}>
-              <LinkPreviewer
-                href="/running"
-                image="https://thepracticaldev.s3.amazonaws.com/i/6hqmcjaxbgbon8ydw93z.png"
-              >
-                <Button
-                  rightIcon={<LinkIcon />}
-                  colorScheme={useColorModeValue("blue", "orange")}
-                >
-                  running
-                </Button>
-              </LinkPreviewer>
-              <Paragraph></Paragraph>
-            </Section>
-          </Box>
-          <Box align="center" my={3}>
-            <Section delay={1.9}>
-              <LinkPreviewer
-                href="/music"
-                image="https://thepracticaldev.s3.amazonaws.com/i/6hqmcjaxbgbon8ydw93z.png"
-              >
-                <Button
-                  rightIcon={<LinkIcon />}
-                  colorScheme={useColorModeValue("blue", "orange")}
-                >
-                  music
-                </Button>
-              </LinkPreviewer>
-            </Section>
-          </Box>
-          <Box align="center">
-            <Section delay={2}>
-              <LinkPreviewer
-                href="/fashion"
-                image="https://thepracticaldev.s3.amazonaws.com/i/6hqmcjaxbgbon8ydw93z.png"
-              >
-                <Button
-                  rightIcon={<LinkIcon />}
-                  colorScheme={useColorModeValue("blue", "orange")}
-                >
-                  fashion
-                </Button>
-              </LinkPreviewer>
-            </Section>
-          </Box>
+          <p>
+            occasionally, i might be in the mood to read or go on a short
+            run/jog. other times, i'm interested in music and games.{" "}
+          </p>
         </Section>
         <Section delay={2.5}>
           <Heading as="h3" variant="section-title">
