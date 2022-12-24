@@ -81,7 +81,7 @@ const Page = () => {
             <Voxel1 />
           </NoSsr>
         </Section>
-        <Section delay={0.8}>
+        <Section delay={1.0}>
           <Heading as="h3" variant="section-title">
             about me?
           </Heading>
@@ -111,7 +111,7 @@ const Page = () => {
             </NextLink>
           </Box>
         </Section>
-        <Section delay={1.1}>
+        <Section delay={1.3}>
           <Heading as="h3" variant="section-title">
             timeline
           </Heading>
