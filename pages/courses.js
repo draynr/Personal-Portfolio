@@ -34,22 +34,22 @@ const courses = () => (
         <SimpleGrid columns={[2, 2, 3]} gap={6}>
           <GridItem
             thumbnail={thumb189}
-            title="CS 189"
+            title="CS 189 - machine learning"
             href="https://www.eecs189.org/"
           ></GridItem>
           <GridItem
             thumbnail={thumb182}
-            title="CS 182"
+            title="CS 182 - neural networks"
             href="https://inst.eecs.berkeley.edu/~cs182/fa22/"
           ></GridItem>
           <GridItem
             thumbnail={thumb100}
-            title="DATA 100"
+            title="DATA 100 - principles and techniques of data science"
             href="https://ds100.org/"
           ></GridItem>
           <GridItem
             thumbnail={thumb104}
-            title="DATA 104"
+            title="DATA 104 - ethics of data"
             href="https://data.berkeley.edu/data-104-human-contexts-and-ethics-data"
           ></GridItem>
         </SimpleGrid>
@@ -63,20 +63,23 @@ const courses = () => (
         <SimpleGrid columns={[2, 2, 3]} gap={6}>
           <GridItem
             thumbnail={thumb61c}
-            title="CS 61C"
+            title="CS 61C - great ideas in machine architecture"
             href="https://cs61c.org/"
           ></GridItem>
           <GridItem
             thumbnail={thumb188}
-            title="CS 188"
+            title="CS 188 - artifical intelligence"
             href="https://inst.eecs.berkeley.edu/~cs188/fa22/"
           ></GridItem>
           <GridItem
             thumbnail={thumb161}
-            title="CS 161"
+            title="CS 161 - computer security"
             href="https://fa22.cs161.org/"
           ></GridItem>
-          <GridItem thumbnail={thumb135} title="UGBA 135"></GridItem>
+          <GridItem
+            thumbnail={thumb135}
+            title="UGBA 135 - personal finance"
+          ></GridItem>
         </SimpleGrid>
       </Section>
       <Section delay={1.2}>
@@ -88,7 +91,7 @@ const courses = () => (
         <SimpleGrid columns={[2, 2, 3]} gap={6}>
           <GridItem
             thumbnail={thumbd8}
-            title="DATA 8"
+            title="DATA 8 - foundations of data science"
             href="http://data8.org/fa22/"
           ></GridItem>
         </SimpleGrid>
@@ -102,20 +105,23 @@ const courses = () => (
         <SimpleGrid columns={[2, 2, 3]} gap={6}>
           <GridItem
             thumbnail={thumb61b}
-            title="CS 61B"
+            title="CS 61B - data structures"
             href="https://inst.eecs.berkeley.edu/~cs61b/sp22/"
           ></GridItem>
           <GridItem
             thumbnail={thumb170}
-            title="CS 170"
+            title="CS 170 - efficient algorithms and intractable problems"
             href="https://cs170.org/"
           ></GridItem>
           <GridItem
             thumbnail={thumb16b}
-            title="EE 16B"
+            title="EE 16B - designing information devices and system II"
             href="https://eecs16b.org/"
           ></GridItem>
-          <GridItem thumbnail={thumb1} title="FRENCH 1"></GridItem>
+          <GridItem
+            thumbnail={thumb1}
+            title="FRENCH 1 - elementary french"
+          ></GridItem>
         </SimpleGrid>
       </Section>
       <Section delay={2.2}>
@@ -127,15 +133,18 @@ const courses = () => (
         <SimpleGrid columns={[2, 2, 3]} gap={6}>
           <GridItem
             thumbnail={thumb61a}
-            title="CS 61A"
+            title="CS 61A - structure and interpretation of computer programs"
             href="https://cs61a.org/"
           ></GridItem>
           <GridItem
             thumbnail={thumb70}
-            title="CS 70"
+            title="CS 70 - discrete mathematics and probability theory"
             href="https://www.eecs70.org/"
           ></GridItem>
-          <GridItem thumbnail={thumb33a} title="STAT 33A"></GridItem>
+          <GridItem
+            thumbnail={thumb33a}
+            title="STAT 33A - intro to r"
+          ></GridItem>
         </SimpleGrid>
       </Section>
     </Container>
