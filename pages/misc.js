@@ -12,7 +12,14 @@ import Layout from "../components/layouts/article.js";
 import flutter from "../public/images/flutter.png";
 import spot from "../public/images/spotify.png";
 import podcast from "../public/images/podcast.png";
-const Projects = () => {
-  return <Layout title="Posts"></Layout>;
+const Misc = () => {
+  return (
+    <Layout title="misc">
+      <p>
+        {" "}
+        test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123test123
+      </p>
+    </Layout>
+  );
 };
-export default Projects;
+export default Misc;

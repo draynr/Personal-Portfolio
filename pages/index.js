@@ -142,7 +142,9 @@ const Page = () => {
           </Heading>
           <p>
             occasionally, i might be in the mood to read or go on a short
-            run/jog. other times, i'm interested in music and games.{" "}
+            run/jog (i believe that cardiovascular exercise is vital to a
+            functional and productive day). other times, i'm interested in
+            listening to music or playing games.{" "}
           </p>
         </Section>
         <Section delay={2.5}>
