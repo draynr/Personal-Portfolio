@@ -19,7 +19,7 @@ const Projects = () => {
         </Heading>
         <SimpleGrid columns={[1, 1, 3]} gap={6}>
           <Section delay={0.1}>
-            <ProjectsGridItem id="website" title="website" thumbnail={site}>
+            <ProjectsGridItem id="/website" title="website" thumbnail={site}>
               i thought i would branch out and focus on more front-end software
             </ProjectsGridItem>
           </Section>

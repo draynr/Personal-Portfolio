@@ -101,7 +101,7 @@ const Page = () => {
             </NextLink>
           </Box>
           <Box align="center" my={2}>
-            <NextLink href="/projects">
+            <NextLink href="/projects" passHref>
               <Button
                 rightIcon={<ChevronRightIcon />}
                 colorScheme={useColorModeValue("blue", "orange")}
