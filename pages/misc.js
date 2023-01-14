@@ -12,11 +12,9 @@ import Layout from "../components/layouts/article.js";
 import flutter from "../public/images/flutter.png";
 import spot from "../public/images/spotify.png";
 import podcast from "../public/images/podcast.png";
+
+import ParticlesComponent from "../components/animated-background.js";
 const Misc = () => {
-  return (
-    <Layout title="misc">
-      <p> wip</p>
-    </Layout>
-  );
+  return <ParticlesComponent />;
 };
 export default Misc;

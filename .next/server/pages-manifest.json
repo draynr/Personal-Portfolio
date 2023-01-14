@@ -2,8 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/projects/website_mobile": "pages/projects/website_mobile.js",
-  "/projects/website": "pages/projects/website.js",
   "/courses": "pages/courses.js",
-  "/projects/gitlet": "pages/projects/gitlet.js"
+  "/": "pages/index.js",
+  "/projects": "pages/projects.js"
 }

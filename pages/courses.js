@@ -16,6 +16,7 @@ import thumb16b from "../public/images/16b.jpeg";
 import thumb33a from "../public/images/33a.jpeg";
 import thumb189 from "../public/images/machine-learning.png";
 import thumb100 from "../public/images/data100.png";
+import ParticlesComponent from "../components/animated-background";
 
 import thumb104 from "../public/images/ethics.png";
 import thumb182 from "../public/images/neural-network.png";
@@ -146,6 +147,9 @@ const courses = () => (
             title="STAT 33A - intro to r"
           ></GridItem>
         </SimpleGrid>
+      </Section>
+      <Section delay={1.2}>
+        <ParticlesComponent />
       </Section>
     </Container>
   </Layout>

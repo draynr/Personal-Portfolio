@@ -14,7 +14,7 @@ const Layout = ({ children, title }) => {
       animate="enter"
       exit="exit"
       variants={variants}
-      transition={{ duration: 0.666, type: "easeInOut" }}
+      transition={{ duration: 0.333, type: "easeInOut" }}
       style={{ position: "relative" }}
     >
       <>

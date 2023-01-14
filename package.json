@@ -34,7 +34,9 @@
     "react-icons": "^4.4.0",
     "react-rotating-text": "^1.4.1",
     "react-text-rotator": "^1.2.0",
-    "three": "^0.143.0"
+    "react-tsparticles": "^2.7.1",
+    "three": "^0.143.0",
+    "tsparticles-slim": "^2.7.1"
   },
   "devDependencies": {
     "eslint": "^8.19.0",

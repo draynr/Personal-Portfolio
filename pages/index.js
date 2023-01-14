@@ -1,3 +1,4 @@
+import ParticlesComponent from "../components/animated-background.js";
 import {
   Container,
   Box,
@@ -46,24 +47,26 @@ const Page = () => {
   return (
     <Layout>
       <Container>
+        <Box align="center">
+          <Image src="images/111.gif" alt="gif"></Image>
+        </Box>
+
         <Box
           borderRadius="lg"
           bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.100")}
           p={3}
           mb={6}
         >
-          hello, i&apos;m currently a student.
+          <h1>
+            <ReactRotatingText items={shuffledItems} />
+          </h1>
         </Box>
         <Section delay={0.2}>
           <Box display={{ md: "flex" }}>
             <Box flexGrow={1} flexShrink={0}>
-              <Heading as="h3" fontSize="45" variant="page-title">
+              <Heading as="h3" fontSize="55" variant="page-title">
                 Jason Dang
               </Heading>
-
-              <h2>
-                <ReactRotatingText items={shuffledItems} />
-              </h2>
             </Box>
             <Image
               borderColor={useColorModeValue("blue.500", "whiteAlpha.800")}
@@ -75,11 +78,6 @@ const Page = () => {
               alt="Profile picture"
             />
           </Box>
-        </Section>
-        <Section delay={0.5}>
-          <NoSsr>
-            <Voxel1 />
-          </NoSsr>
         </Section>
         <Section delay={1.0}>
           <Heading as="h3" variant="section-title">
@@ -110,6 +108,11 @@ const Page = () => {
               </Button>
             </NextLink>
           </Box>
+        </Section>
+        <Section delay={1.1}>
+          <NoSsr>
+            <Voxel1 />
+          </NoSsr>
         </Section>
         <Section delay={1.3}>
           <Heading as="h3" variant="section-title">
@@ -197,6 +200,9 @@ const Page = () => {
           </Link>
         </Section>
       </Container>
+      <Section delay={1.2}>
+        <ParticlesComponent />
+      </Section>
     </Layout>
   );
 };

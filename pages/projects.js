@@ -1,4 +1,11 @@
-import { Box, Container, SimpleGrid, Divider, Heading } from "@chakra-ui/react";
+import {
+  Box,
+  Image,
+  Container,
+  SimpleGrid,
+  Divider,
+  Heading,
+} from "@chakra-ui/react";
 import Section from "../components/section.js";
 import {
   GridItem,
@@ -10,17 +17,21 @@ import site from "../public/images/projects/webpage.png";
 import Layout from "../components/layouts/article.js";
 import flutter from "../public/images/flutter.png";
 import spot from "../public/images/spotify.png";
+import ParticlesComponent from "../components/animated-background.js";
 const Projects = () => {
   return (
     <Layout title="Projects">
       <Container>
+        <Box align="center">
+          <Image src="images/123.gif"></Image>
+        </Box>
         <Heading as="h3" fontSize={40} mb={6}>
           things i've tried to make
         </Heading>
         <SimpleGrid columns={[1, 1, 3]} gap={6}>
           <Section delay={0.1}>
             <ProjectsGridItem id="/website" title="website" thumbnail={site}>
-              i thought i would branch out and focus on more front-end software
+              personal website
             </ProjectsGridItem>
           </Section>
           <Section delay={0.3}>
@@ -29,7 +40,7 @@ const Projects = () => {
               title="webview"
               thumbnail={flutter}
             >
-              personal site rendered through simple Flutter Webview
+              personal website simply rendered through flutter webview
             </ProjectsGridItem>
           </Section>
           <Section delay={0.4}>
@@ -60,6 +71,9 @@ const Projects = () => {
             </ProjectsGridItem>
           </Section>
         </SimpleGrid>
+        <Section delay={2.2}>
+          <ParticlesComponent />
+        </Section>
       </Container>
     </Layout>
   );
