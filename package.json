@@ -36,6 +36,7 @@
     "react-text-rotator": "^1.2.0",
     "react-tsparticles": "^2.7.1",
     "three": "^0.143.0",
+    "tsparticles": "^2.7.1",
     "tsparticles-slim": "^2.7.1"
   },
   "devDependencies": {

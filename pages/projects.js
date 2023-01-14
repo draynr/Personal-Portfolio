@@ -71,7 +71,7 @@ const Projects = () => {
             </ProjectsGridItem>
           </Section>
         </SimpleGrid>
-        <Section delay={2.2}>
+        <Section delay={0.5}>
           <ParticlesComponent />
         </Section>
       </Container>

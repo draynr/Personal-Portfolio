@@ -4,7 +4,7 @@ import Navbar from "../navbar";
 import { Box, Container } from "@chakra-ui/react";
 const Main = ({ children, router }) => {
   return (
-    <Box as="main" pb={8}>
+    <Box as="main" pb={10}>
       <Head>
         <meta
           name="viewport"
