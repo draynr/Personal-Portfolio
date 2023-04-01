@@ -12,13 +12,10 @@ const gitlet = () => {
           Gitlet
           <Badge> 2022 </Badge>
         </Title>
-        <P> copied repository system like git</P>
+        <P> Copied repository system like git</P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source </Meta>
-            <Link href="https://www.youtube.com/watch?v=A3Zo54GyLJ8&list=RDA3Zo54GyLJ8&start_radio=1">
-              sorry can't post course material, but click this{" "}
-            </Link>
           </ListItem>
           <ListItem>
             <Meta>Tools</Meta>

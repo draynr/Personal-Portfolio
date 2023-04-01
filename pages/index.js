@@ -81,13 +81,10 @@ const Page = () => {
         </Section>
         <Section delay={1.0}>
           <Heading as="h3" variant="section-title">
-            about me?
+            about me
           </Heading>
 
-          <p>
-            i'm twenty years old. finishing up college. longing to travel.
-            learning how to live. discovering what i want to do.
-          </p>
+          <p>20 years old... looking for stuff to do</p>
           <Box align="center" my={3}>
             <NextLink href="/courses">
               <Button
@@ -120,7 +117,7 @@ const Page = () => {
           </Heading>
           <TimelineSection>
             <TimelineYear> April'02</TimelineYear>
-            born in sacramento, california
+            born sacramento, california
           </TimelineSection>
           <TimelineSection>
             <TimelineYear>Jul'19-Apr'20</TimelineYear>
@@ -143,12 +140,7 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             hobbies?
           </Heading>
-          <p>
-            occasionally, i might be in the mood to read or go on a short
-            run/jog (i believe that cardiovascular exercise is vital to a
-            functional and productive day). other times, i'm interested in
-            listening to music or playing games.{" "}
-          </p>
+          <p>reading, music, soccer</p>
         </Section>
         <Section delay={2.5}>
           <Heading as="h3" variant="section-title">
@@ -171,7 +163,7 @@ const Page = () => {
               leftIcon={<Icon as={IoLogoLinkedin}></Icon>}
             ></Button>
           </Link>
-          <Link href="https://www.instagram.com/jaesin9812/" target="_blank">
+          <Link href="https://www.instagram.com/jaesiiiiiiin/" target="_blank">
             <Button
               variant="ghost"
               colorScheme="orange"
@@ -186,16 +178,6 @@ const Page = () => {
               variant="ghost"
               colorScheme="green"
               leftIcon={<Icon as={IoMusicalNote}></Icon>}
-            ></Button>
-          </Link>
-          <Link
-            href="https://discordapp.com/users/260118781035151362"
-            target="_blank"
-          >
-            <Button
-              variant="ghost"
-              colorScheme="blue"
-              leftIcon={<Icon as={IoLogoDiscord}></Icon>}
             ></Button>
           </Link>
         </Section>
