@@ -81,17 +81,17 @@ const Page = () => {
         </Section>
         <Section delay={1.0}>
           <Heading as="h3" variant="section-title">
-            about me
+            About Me
           </Heading>
 
-          <p>20 years old... looking for stuff to do</p>
+          <p>21 years old... looking for stuff to do</p>
           <Box align="center" my={3}>
             <NextLink href="/courses">
               <Button
                 rightIcon={<ChevronRightIcon />}
                 colorScheme={useColorModeValue("blue", "orange")}
               >
-                courses
+                Courses
               </Button>
             </NextLink>
           </Box>
@@ -101,7 +101,7 @@ const Page = () => {
                 rightIcon={<ChevronRightIcon />}
                 colorScheme={useColorModeValue("blue", "orange")}
               >
-                projects
+                Projects
               </Button>
             </NextLink>
           </Box>
@@ -113,38 +113,38 @@ const Page = () => {
         </Section>
         <Section delay={1.3}>
           <Heading as="h3" variant="section-title">
-            timeline
+            Timeline
           </Heading>
           <TimelineSection>
-            <TimelineYear> April'02</TimelineYear>
-            born sacramento, california
+            <TimelineYear> Apr '02</TimelineYear>
+            sacramento, california
           </TimelineSection>
           <TimelineSection>
-            <TimelineYear>Jul'19-Apr'20</TimelineYear>
-            volt | apple internship
+            <TimelineYear>Jul '19 - Apr '20</TimelineYear>
+            volt -> apple internship
           </TimelineSection>
           <TimelineSection>
-            <TimelineYear>May'20</TimelineYear>
-            graduated franklin high school
+            <TimelineYear>May '20</TimelineYear>
+            franklin hs
           </TimelineSection>
           <TimelineSection>
-            <TimelineYear>Aug'20-May'21</TimelineYear>
-            attended LRCCD
+            <TimelineYear>Aug '20 - May '21</TimelineYear>
+            los rios cc
           </TimelineSection>
           <TimelineSection>
-            <TimelineYear>Aug'21-Present</TimelineYear>
-            attending university of california, berkeley
+            <TimelineYear>Aug '21 - May '24</TimelineYear>
+            uc berkeley
           </TimelineSection>
         </Section>
         <Section delay={1.5}>
           <Heading as="h3" variant="section-title">
-            hobbies?
+            Hobbies?
           </Heading>
           <p>reading, music, soccer</p>
         </Section>
         <Section delay={2.5}>
           <Heading as="h3" variant="section-title">
-            links
+            Links
           </Heading>
           <Link href="https://github.com/draynr" target="_blank">
             <Button
