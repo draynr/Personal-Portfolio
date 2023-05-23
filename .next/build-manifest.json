@@ -35,6 +35,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/courses.js"
     ],
+    "/misc": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/misc.js"
+    ],
     "/projects": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

@@ -128,10 +128,6 @@ const Page = () => {
             franklin hs
           </TimelineSection>
           <TimelineSection>
-            <TimelineYear>Aug '20 - May '21</TimelineYear>
-            los rios cc
-          </TimelineSection>
-          <TimelineSection>
             <TimelineYear>Aug '21 - May '24</TimelineYear>
             uc berkeley
           </TimelineSection>

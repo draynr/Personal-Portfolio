@@ -26,7 +26,7 @@ const Projects = () => {
           <Image src="images/123.gif"></Image>
         </Box>
         <Heading as="h3" fontSize={40} mb={6}>
-          things i've tried to make
+          Side Projects
         </Heading>
         <SimpleGrid columns={[1, 1, 3]} gap={6}>
           <Section delay={0.1}>
@@ -55,7 +55,7 @@ const Projects = () => {
         </SimpleGrid>
         <Section delay={0.8}>
           <Heading as="h3" fontSize={40} mb={6}>
-            memorable course projects
+            Course Projects
           </Heading>
         </Section>
         <SimpleGrid columns={[1, 1, 3]} gap={6}>

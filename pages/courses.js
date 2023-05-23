@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
+import { Box, Image, Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import { GridItem } from "../components/grid_item";
@@ -17,6 +17,7 @@ import thumb33a from "../public/images/33a.jpeg";
 import thumb189 from "../public/images/189.png";
 import thumb100 from "../public/images/data100.png";
 import thumb126 from "../public/images/126.png";
+import thumb110 from "../public/images/shewchuk.png";
 
 import ParticlesComponent from "../components/animated-background";
 
@@ -27,7 +28,10 @@ import thumb144 from "../public/images/144.png";
 const courses = () => (
   <Layout title="Courses">
     <Container>
-      <Heading as="h2" fontSize={45} align="center" mb={5}>
+      <Box align="center">
+        <Image src="images/rabbit.gif" alt="gif"></Image>
+      </Box>
+      <Heading as="h2" fontSize={45} align="center" mb={5} mt={4}>
         Course Work
       </Heading>
       <Section delay={0.2}>
@@ -51,6 +55,11 @@ const courses = () => (
             thumbnail={thumb144}
             title="DATA 144 - Data Mining and Analytics"
             href="https://classes.berkeley.edu/content/2023-fall-data-144-001-lec-001"
+          ></GridItem>
+          <GridItem
+            thumbnail={thumb110}
+            title="MATH 110 - Linear Algebra"
+            href="https://math.berkeley.edu/courses/fall-2023-math-110-001-lec"
           ></GridItem>
         </SimpleGrid>
       </Section>
