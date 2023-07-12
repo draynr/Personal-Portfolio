@@ -3,7 +3,7 @@ import { mode } from "@chakra-ui/theme-tools";
 const styles = {
   global: (props) => ({
     body: {
-      bg: mode("#E6DED0", "#202023")(props),
+      bg: mode("#C6D4E2", "#122832")(props),
     },
   }),
 };
@@ -24,7 +24,7 @@ const components = {
   },
   Link: {
     baseStyle: (props) => ({
-      color: mode("#3d7aed", "#ff63c3")(props),
+      color: mode("#FAFAFA", "#040622")(props),
       textUnderlineOffset: 3,
     }),
   },

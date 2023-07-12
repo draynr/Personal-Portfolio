@@ -22,12 +22,12 @@ import {
 import Toggle from "./theme-toggle.js";
 const LinkItem = ({ href, path, children }) => {
   const active = path === href;
-  const inactiveColor = useColorModeValue("gray200", "whiteAlpha.900");
+  const inactiveColor = useColorModeValue("black", "whiteAlpha.900");
   return (
     <NextLink href={href}>
       <Link
         p={2}
-        bg={active ? "grassTeal" : undefined}
+        bg={active ? "white" : undefined}
         color={active ? "#202023" : inactiveColor}
       >
         {children}
@@ -43,8 +43,8 @@ const Navbar = (props) => {
       position="fixed"
       as="nav"
       w="100%"
-      bg={useColorModeValue("#ffffff40", "#20202380")}
-      style={{ backdropFilter: "blur(10px)" }}
+      bg={useColorModeValue("#ffffff40", "#ffffff10")}
+      style={{ backdropFilter: "blur(50px)" }}
       zIndex={2}
       {...props}
     >
@@ -93,12 +93,12 @@ const Navbar = (props) => {
                 aria-label="Options"
                 borderRadius="full"
                 _expanded={{
-                  bg: useColorModeValue("blue.400", "orange.200"),
+                  bg: useColorModeValue("white", "#1b3c4b"),
                 }}
               />
               <MenuList
-                color={useColorModeValue("black", "black")}
-                bg={useColorModeValue("blue.400", "orange.200")}
+                color={useColorModeValue("black", "white")}
+                bg={useColorModeValue("#FAFAFA", "#1b3c4b")}
               >
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>about</MenuItem>

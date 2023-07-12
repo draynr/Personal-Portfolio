@@ -47,7 +47,7 @@ const Voxel1 = () => {
       const initialCameraPosition = new THREE.Vector3(
         100 * Math.sin(0.2 * Math.PI),
         10,
-        20 * Math.cos(0.2 * Math.PI)
+        50 * Math.cos(0.2 * Math.PI)
       );
 
       // 640 -> 240
@@ -70,9 +70,10 @@ const Voxel1 = () => {
       const controls = new OrbitControls(camera, renderer.domElement);
       controls.autoRotate = true;
       controls.target = target;
-      controls.autoRotateSpeed = 0.75;
+      controls.autoRotateSpeed = 5;
       controls.enableDamping = true;
       controls.enablePan = false;
+      controls.zoomSpeed = 0.000001;
 
       loadGLTFModel(scene, url, {
         receiveShadow: false,
@@ -87,7 +88,7 @@ const Voxel1 = () => {
       const animate = () => {
         req = requestAnimationFrame(animate);
 
-        frame = frame <= 100 ? frame + 1 : frame;
+        frame = frame <= 10 ? frame + 1 : frame;
 
         controls.update();
         renderer.render(scene, camera);
@@ -107,8 +108,8 @@ const Voxel1 = () => {
       m="auto"
       at={["-20px", "-20px", "-10px"]}
       mb={["-40px", "-20px", "-20px"]}
-      w={[80, 280, 300]}
-      h={[80, 280, 300]}
+      w={[80, 280, 400]}
+      h={[80, 280, 400]}
       position="relative"
     >
       {loading && (
