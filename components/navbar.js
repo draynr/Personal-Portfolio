@@ -51,7 +51,7 @@ const Navbar = (props) => {
       <Container
         display="flex"
         p={2}
-        maxWidth="container.md"
+        maxWidth="container.lg"
         wrap="wrap"
         align="center"
         justify="space-between"
@@ -78,8 +78,8 @@ const Navbar = (props) => {
           <LinkItem href="/resume.pdf" path={path}>
             resume
           </LinkItem>
-          <LinkItem href="/misc" path={path}>
-            misc
+          <LinkItem href="/read" path={path}>
+            read
           </LinkItem>
         </Stack>
         <Box flex={1} align="right">
@@ -112,8 +112,8 @@ const Navbar = (props) => {
                 <NextLink href="/resume.pdf" passHref>
                   <MenuItem as={Link}>resume</MenuItem>
                 </NextLink>
-                <NextLink href="/misc" passHref>
-                  <MenuItem as={Link}>misc</MenuItem>
+                <NextLink href="/read" passHref>
+                  <MenuItem as={Link}>read</MenuItem>
                 </NextLink>
               </MenuList>
             </Menu>
