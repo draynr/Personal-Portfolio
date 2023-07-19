@@ -75,9 +75,6 @@ const Navbar = (props) => {
           <LinkItem href="/projects" path={path}>
             projects
           </LinkItem>
-          <LinkItem href="/resume.pdf" path={path}>
-            resume
-          </LinkItem>
           <LinkItem href="/read" path={path}>
             read
           </LinkItem>
@@ -108,9 +105,6 @@ const Navbar = (props) => {
                 </NextLink>
                 <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>projects</MenuItem>
-                </NextLink>
-                <NextLink href="/resume.pdf" passHref>
-                  <MenuItem as={Link}>resume</MenuItem>
                 </NextLink>
                 <NextLink href="/read" passHref>
                   <MenuItem as={Link}>read</MenuItem>
