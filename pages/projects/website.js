@@ -18,7 +18,9 @@ const website = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source </Meta>
-            <Link href="https://github.com/draynr/website">github</Link>
+            <Link href="https://github.com/draynr/website" color="pink.500">
+              github
+            </Link>
           </ListItem>
           <ListItem>
             <Meta>Tools</Meta>
