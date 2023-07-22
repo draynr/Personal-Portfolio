@@ -17,7 +17,7 @@ import thumb33a from "../public/images/33a.jpeg";
 import thumb189 from "../public/images/189.png";
 import thumb100 from "../public/images/data100.png";
 import thumb126 from "../public/images/126.png";
-import thumb110 from "../public/images/shewchuk.png";
+import thumb166 from "../public/images/thumb166.png";
 
 import ParticlesComponent from "../components/animated-background";
 
@@ -57,7 +57,7 @@ const courses = () => (
         ></GridItem>
         <GridItem
           thumbnail={thumb166}
-          title="Decision Analytics"
+          title="INDENG 166 - Decision Analytics"
           href="https://classes.berkeley.edu/content/2022-Spring-INDENG-166-001-LEC-001"
         ></GridItem>
       </SimpleGrid>
