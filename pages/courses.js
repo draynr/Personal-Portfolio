@@ -56,9 +56,9 @@ const courses = () => (
           href="https://classes.berkeley.edu/content/2023-fall-data-144-001-lec-001"
         ></GridItem>
         <GridItem
-          thumbnail={thumb110}
-          title="MATH 110 - Linear Algebra"
-          href="https://math.berkeley.edu/courses/fall-2023-math-110-001-lec"
+          thumbnail={thumb166}
+          title="Decision Analytics"
+          href="https://classes.berkeley.edu/content/2022-Spring-INDENG-166-001-LEC-001"
         ></GridItem>
       </SimpleGrid>
     </Section>
