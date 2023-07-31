@@ -1,0 +1,73 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\dangj\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\PowerShell\7;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.4.101-hotspot\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\GitHub CLI\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Users\dangj\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\dangj\AppData\Local\Programs\Python\Python311\pip;C:\Users\dangj\anaconda3;C:\Users\dangj\anaconda3\Scripts;C:\Program Files\PowerShell\7\;C:\Users\dangj\anaconda3;C:\Users\dangj\anaconda3\Library\mingw-w64\bin;C:\Users\dangj\anaconda3\Library\usr\bin;C:\Users\dangj\anaconda3\Library\bin;C:\Users\dangj\anaconda3\Scripts;C:\Program Files\PowerShell\7;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.4.101-hotspot\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\GitHub CLI\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Program Files\PowerShell\7\;C:\Users\dangj\scoop\apps\nvm\current\nodejs\nodejs;C:\Users\dangj\scoop\shims;C:\Users\dangj\AppData\Local\Microsoft\WindowsApps;C:\Users\dangj\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dangj\.dotnet\tools;C:\Users\dangj\AppData\Local\Programs\Hyper\resources\bin;C:\Users\dangj\Downloads\MinGW\bin;C:\tools\neovim\nvim-win64\bin;C:\Program Files\nodejs\node.exe;C:\Users\dangj\AppData\Roaming\npm;C:\Users\dangj\AppData\Local\Programs\oh-my-posh\bin;C:\Users\dangj\anaconda3\Library\bin\conda.bat;C:\Users\dangj\anaconda3\Scripts\conda.exe;C:\Users\dangj\anaconda3\condabin\conda.bat;C:\Users\dangj\AppData\Local\Microsoft\WindowsApps;C:\Users\dangj\go\bin;C:\Users\dangj\AppData\Local\Programs\Python\Python311;C:\Users\dangj\AppData\Local\Programs\Python\Python311\pip;C:\Users\dangj\AppData\Local\Pandoc\;C:\Users\dangj\AppData\Local\Programs\MiKTeX\miktex\bin\x64\
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\dangj\website\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "homepage",
+    "version": "1.0.0",
+    "description": "Jason Dang's website",
+    "scripts": {
+      "dev": "next dev -H 0.0.0.0",
+      "build": "next-build",
+      "start": "next start",
+      "prettier": "prettier -write .",
+      "lint": "next lint"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/draynr/draynr.git"
+    },
+    "keywords": [],
+    "author": "Jason Dang",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/draynr/draynr/issues"
+    },
+    "homepage": "https://github.com/draynr/draynr#readme",
+    "dependencies": {
+      "@chakra-ui/icons": "^2.0.3",
+      "@chakra-ui/react": "^2.2.8",
+      "@chakra-ui/theme-tools": "^2.0.9",
+      "@emotion/react": "^11.9.3",
+      "@emotion/styled": "^11.9.3",
+      "framer-motion": "^6.4.3",
+      "next": "^12.2.5",
+      "next-link": "^2.0.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^4.4.0",
+      "react-rotating-text": "^1.4.1",
+      "react-text-rotator": "^1.2.0",
+      "react-tsparticles": "^2.7.1",
+      "three": "^0.143.0",
+      "tsparticles": "^2.7.1",
+      "tsparticles-slim": "^2.7.1"
+    },
+    "devDependencies": {
+      "eslint": "^8.19.0",
+      "eslint-config-next": "^12.2.2",
+      "gh-pages": "^4.0.0",
+      "prettier": "^2.7.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

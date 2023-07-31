@@ -8,7 +8,7 @@ import { loadGLTFModel } from "../libs/model";
 import { IoPizza } from "react-icons/io5";
 
 const Voxel1 = () => {
-  const url = "/pc.glb";
+  const url = "/pc22.glb";
 
   const refContainer = useRef();
   const [loading, setLoading] = useState(true);
@@ -52,7 +52,7 @@ const Voxel1 = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.005 + 2;
+      const scale = scH * 0.009;
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
@@ -70,14 +70,14 @@ const Voxel1 = () => {
       const controls = new OrbitControls(camera, renderer.domElement);
       controls.autoRotate = true;
       controls.target = target;
-      controls.autoRotateSpeed = 5;
+      controls.autoRotateSpeed = 1.5;
       controls.enableDamping = true;
       controls.enablePan = false;
-      controls.zoomSpeed = 0.000001;
+      controls.zoomSpeed = 0.000000000000000000000000000000000001;
 
       loadGLTFModel(scene, url, {
-        receiveShadow: false,
-        castShadow: false,
+        receiveShadow: true,
+        castShadow: true,
       }).then(() => {
         animate();
         setLoading(false);
@@ -108,8 +108,8 @@ const Voxel1 = () => {
       m="auto"
       at={["-20px", "-20px", "-10px"]}
       mb={["-40px", "-20px", "-20px"]}
-      w={[80, 280, 400]}
-      h={[80, 280, 400]}
+      w={[80, 280, 500]}
+      h={[80, 280, 500]}
       position="relative"
     >
       {loading && (

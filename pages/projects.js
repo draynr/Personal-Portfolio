@@ -21,6 +21,7 @@ import ParticlesComponent from "../components/animated-background.js";
 const Projects = () => {
   return (
     <Layout title="Projects">
+      <ParticlesComponent />
       <Box align="center">
         <Image src="images/123.gif"></Image>
       </Box>
@@ -34,9 +35,6 @@ const Projects = () => {
           </ProjectsGridItem>
         </Section>
       </SimpleGrid>
-      <Section delay={0.5}>
-        <ParticlesComponent />
-      </Section>
     </Layout>
   );
 };

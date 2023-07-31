@@ -46,6 +46,7 @@ const shuffledItems = array.sort((a, b) => 0.5 - Math.random());
 const Page = () => {
   return (
     <Layout>
+      <ParticlesComponent />
       <Box align="center">
         <Image src="images/111.gif" alt="gif"></Image>
       </Box>
@@ -175,8 +176,6 @@ const Page = () => {
             leftIcon={<Icon as={IoMusicalNote}></Icon>}
           ></Button>
         </Link>
-      </Section>
-      <Section delay={1.2}>
         <ParticlesComponent />
       </Section>
     </Layout>
