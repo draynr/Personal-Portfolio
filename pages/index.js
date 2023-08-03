@@ -108,7 +108,7 @@ const Page = () => {
       </Section>
       <Section delay={1.1}>
         <NoSsr>
-          <Voxel1 />
+          <Voxel1 url="../public/pc22.glb" />
         </NoSsr>
       </Section>
       <Section delay={1.3}>

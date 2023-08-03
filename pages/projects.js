@@ -18,12 +18,13 @@ import Layout from "../components/layouts/article.js";
 import bankLogo from "../public/images/bank.png";
 import swiphtLogo from "../public/images/swiphtchatlogo.png";
 import ParticlesComponent from "../components/animated-background.js";
+import Voxel1 from "../components/animatex.js";
+import Voxel2 from "../components/animatex copy.js";
 const Projects = () => {
   return (
     <Layout title="Projects">
-      <ParticlesComponent />
       <Box align="center">
-        <Image src="images/123.gif"></Image>
+        <Voxel2 />
       </Box>
       <Heading as="h3" fontSize={40} mb={5}>
         Projects
