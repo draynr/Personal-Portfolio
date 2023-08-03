@@ -25,7 +25,7 @@ import {
   IoLogoGithub,
 } from "react-icons/io5";
 import NoSsr from "/components/no-ssr.js";
-import Voxel1 from "/components/animatex.js";
+import Voxel1 from "/components/voxel-1.js";
 import { LinkPreviewer } from "../components/linkpreviewer";
 var ReactRotatingText = require("react-rotating-text");
 const array = [

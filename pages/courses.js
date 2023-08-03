@@ -25,10 +25,11 @@ import thumb104 from "../public/images/ethics.png";
 import thumb182 from "../public/images/neural-network.png";
 import thumb162 from "../public/images/162.png";
 import thumb144 from "../public/images/144.png";
+import Voxel3 from "../components/voxel-3";
 const courses = () => (
   <Layout title="Courses">
     <Box align="center">
-      <Image src="images/rabbit.gif" alt="gif"></Image>
+      <Voxel3 />
     </Box>
     <Heading as="h2" fontSize={45} align="center" mb={5} mt={4}>
       Course Work

@@ -18,8 +18,7 @@ import Layout from "../components/layouts/article.js";
 import bankLogo from "../public/images/bank.png";
 import swiphtLogo from "../public/images/swiphtchatlogo.png";
 import ParticlesComponent from "../components/animated-background.js";
-import Voxel1 from "../components/animatex.js";
-import Voxel2 from "../components/animatex copy.js";
+import Voxel2 from "../components/voxel-2.js";
 const Projects = () => {
   return (
     <Layout title="Projects">
@@ -29,24 +28,34 @@ const Projects = () => {
       <Heading as="h3" fontSize={40} mb={5}>
         Projects
       </Heading>
-      <SimpleGrid columns={[1, 2, 3]} gap={5}>
-        <ProjectsGridItem id="/website" title="Website" thumbnail={site}>
-          Personal Site
-        </ProjectsGridItem>
-        <ProjectsGridItem id="/chat" title="SwiphtChat" thumbnail={swiphtLogo}>
-          Real-time web chat application
-        </ProjectsGridItem>
-        <ProjectsGridItem
-          id="/banking"
-          title="IntegratedBanking"
-          thumbnail={bankLogo}
-        >
-          Web Application for Centralized Hub Access of Banking Transactions
-        </ProjectsGridItem>
-        <ProjectsGridItem id="/gitlet" title="Gitlet" thumbnail={thumbGitlet}>
-          Git Repository Clone
-        </ProjectsGridItem>
-      </SimpleGrid>
+      <Section delay={0.4}>
+        <SimpleGrid columns={[1, 2, 4]} gap={10}>
+          <ProjectsGridItem id="/website" title="Website" thumbnail={site}>
+            Personal Site
+          </ProjectsGridItem>
+          <ProjectsGridItem
+            id="/chat"
+            title="SwiphtChat"
+            thumbnail={swiphtLogo}
+          >
+            Real-time web chat application
+          </ProjectsGridItem>
+          <ProjectsGridItem
+            id="/banking"
+            title="IntegratedBanking"
+            thumbnail={bankLogo}
+          >
+            Web Application for Centralized Hub Access of Banking Transactions
+          </ProjectsGridItem>
+        </SimpleGrid>
+      </Section>
+      <Section delay={0.65}>
+        <SimpleGrid columns={[1, 2, 3]} gap={5}>
+          <ProjectsGridItem id="/gitlet" title="Gitlet" thumbnail={thumbGitlet}>
+            Git Repository Clone
+          </ProjectsGridItem>
+        </SimpleGrid>
+      </Section>
     </Layout>
   );
 };
