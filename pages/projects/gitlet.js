@@ -18,8 +18,8 @@ const gitlet = () => {
             <Meta>Source </Meta>
           </ListItem>
           <ListItem>
-            <Meta>Tools</Meta>
-            <span>java, git, oop</span>
+            <Meta>Languages/Frameworks</Meta>
+            <span> Java </span>
           </ListItem>
         </List>
       </Container>

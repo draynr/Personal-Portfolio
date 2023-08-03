@@ -121,7 +121,7 @@ const Page = () => {
         </TimelineSection>
         <TimelineSection>
           <TimelineYear>Jul '19 - Apr '20</TimelineYear>
-          volt -> apple internship
+          volt workforce solutions -> apple internship
         </TimelineSection>
         <TimelineSection>
           <TimelineYear>May '20</TimelineYear>

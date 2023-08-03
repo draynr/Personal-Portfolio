@@ -26,7 +26,7 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
 );
 export const ProjectsGridItem = ({ children, id, title, thumbnail }) => (
   <Box
-    w="100%"
+    w="full"
     align="center"
     _hover={{ background: "#ffffff30", color: "white" }}
   >
@@ -56,4 +56,7 @@ export const GridItemStyle = () => (
 	border-radius:12px ;
 	}`}
   />
+);
+export const ProjectImage = ({ src, alt }) => (
+  <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4} />
 );

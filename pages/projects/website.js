@@ -24,7 +24,7 @@ const website = () => {
           </ListItem>
           <ListItem>
             <Meta>Tools</Meta>
-            <span>Next.js, React, Chakra UI, Three.js </span>
+            <span>Next.js, Chakra UI, Three.js </span>
           </ListItem>
         </List>
       </Container>
