@@ -30,8 +30,8 @@ const components = {
   },
 };
 const fonts = {
-  heading: "Josefin Sans",
-  body: "'Rubik'",
+  heading: "Space Mono",
+  body: "Lexend Deca",
 };
 const colors = {
   grassTeal: "#D2B48C",

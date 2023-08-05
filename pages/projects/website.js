@@ -6,7 +6,7 @@ import Layout from "../../components/layouts/article";
 
 const website = () => {
   return (
-    <Layout title="website">
+    <Layout title="Personal Portfolio">
       <Container>
         <Title>
           Personal Site

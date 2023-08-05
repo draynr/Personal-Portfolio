@@ -74,7 +74,7 @@ const Page = () => {
             borderStyle="solid"
             borderRadius="full"
             display="inline-block"
-            src="/images/profile.png"
+            src="/images/pfp.jpeg"
             alt="Profile picture"
           />
         </Box>
@@ -84,7 +84,11 @@ const Page = () => {
           About Me
         </Heading>
 
-        <p>21 years old... looking for stuff to do</p>
+        <p>
+          21... I'm Jason, a dedicated student with an interest for full-stack
+          development. Particularly, I have a passion for developing products
+          that I find practical in everyday life.
+        </p>
         <Box align="center" my={3}>
           <NextLink href="/courses">
             <Button
@@ -176,7 +180,6 @@ const Page = () => {
             leftIcon={<Icon as={IoMusicalNote}></Icon>}
           ></Button>
         </Link>
-        <ParticlesComponent />
       </Section>
     </Layout>
   );

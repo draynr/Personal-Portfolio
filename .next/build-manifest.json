@@ -40,10 +40,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/projects.js"
     ],
-    "/read": [
+    "/projects/chat": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/read.js"
+      "static/chunks/pages/projects/chat.js"
     ]
   },
   "ampFirstPages": []

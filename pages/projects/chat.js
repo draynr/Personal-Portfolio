@@ -6,18 +6,16 @@ import Layout from "../../components/layouts/article";
 
 const chat = () => {
   return (
-    <Layout title="Gitlet">
+    <Layout title="SwiphtChat">
       <Container>
         <Title>
           SwiphtChat
           <Badge> 2023 </Badge>
         </Title>
         <P>
-          Developed a real-time chat application with features like
-          adding/removing friends, real-time messaging, and secure
-          authentication. Ensured optimized performance through Redis database
-          queries, protection of sensitive routes, and responsive UI with
-          Tailwind.
+          A chat web application with features like adding friends, real-time
+          messaging. Developed a back-end web service to handle user
+          authentication with JWT and store sessions data in a Redis cache.
         </P>
         <List ml={4} my={4}>
           <ListItem>

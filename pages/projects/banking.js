@@ -6,7 +6,7 @@ import Layout from "../../components/layouts/article.js";
 
 const chat = () => {
   return (
-    <Layout title="Gitlet">
+    <Layout title="IntegratedBanking">
       <Container>
         <Title>
           IntegratedBanking
