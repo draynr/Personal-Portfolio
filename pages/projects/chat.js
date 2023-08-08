@@ -28,10 +28,11 @@ const chat = () => {
             <Meta>Languages/Frameworks</Meta>
             <span> TypeScript, Next.js, TailWindCSS, Redis</span>
           </ListItem>
-          <ProjectImage src={"/images/chat-02.png"} alt="SwiphtChat" />
-          <ProjectImage src={"/images/chat-03.png"} alt="SwiphtChat" />
-          <ProjectImage src={"/images/chat-04.png"} alt="SwiphtChat" />
         </List>
+        <ProjectImage src={"/images/chat05.png"} alt="SwiphtChat" />
+        <ProjectImage src={"/images/chat-02.png"} alt="SwiphtChat" />
+        <ProjectImage src={"/images/chat-03.png"} alt="SwiphtChat" />
+        <ProjectImage src={"/images/chat-04.png"} alt="SwiphtChat" />
       </Container>
     </Layout>
   );
