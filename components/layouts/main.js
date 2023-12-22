@@ -11,7 +11,12 @@ const Main = ({ children, router }) => {
           content="width = device-width, 
                     initial-scale =1"
         />
+        <meta
+          name="keywords"
+          content="uc berkeley, cal, jason, dang, computer science"
+        />
         <title> Jason Dang </title>
+        <meta name="description" content="Jason Dang's Personal Website" />
       </Head>
       <Navbar path={router.asPath} />
       <Container maxW="container.lg" pt={55}>
