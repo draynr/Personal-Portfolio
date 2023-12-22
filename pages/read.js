@@ -18,6 +18,7 @@ import Kundera from "../public/images/kundera.jpeg";
 import Folly from "../public/images/Folly.jpeg";
 import breath from "../public/images/breath.jpeg";
 import search from "../public/images/search.jpeg";
+import fish from "../public/images/fish.jpg";
 import ParticlesComponent from "../components/animated-background.js";
 const Misc = () => {
   return (
@@ -25,17 +26,17 @@ const Misc = () => {
       <Box align="center">
         <Image src="images/books.gif"></Image>
       </Box>
-      <Heading as="h3" fontSize={40} mb={6}>
-        reading
+      <Heading as="h3" align="center" fontSize={40} mb={6}>
+        Books
       </Heading>
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 1, 4]} gap={8}>
           <GridItem
-            title="David and Goliath: Underdogs, Misfits, and the Art of Battling Giants"
-            thumbnail={david}
-            href="https://www.amazon.com/David-and-Goliath-audiobook/dp/B00EKQKMG2/ref=sr_1_1?crid=3MO0A7906X4EJ&keywords=david+and+the+goliath&qid=1689638742&s=audible&sprefix=david+and+the+goliat%2Caudible%2C148&sr=1-1"
+            title="Why Fish Don't Exist"
+            thumbnail={fish}
+            href="https://www.amazon.com/Why-Fish-Dont-Exist-Hidden/dp/1501160273"
           >
-            Malcolm Gladwell
+            Lulu Miller
           </GridItem>
           <GridItem
             title="Theory of Everything"
@@ -50,6 +51,13 @@ const Misc = () => {
         finished
       </Heading>
       <SimpleGrid columns={[1, 1, 4]} gap={8}>
+        <GridItem
+          title="David and Goliath: Underdogs, Misfits, and the Art of Battling Giants"
+          thumbnail={david}
+          href="https://www.amazon.com/David-and-Goliath-audiobook/dp/B00EKQKMG2/ref=sr_1_1?crid=3MO0A7906X4EJ&keywords=david+and+the+goliath&qid=1689638742&s=audible&sprefix=david+and+the+goliat%2Caudible%2C148&sr=1-1"
+        >
+          Malcolm Gladwell
+        </GridItem>
         <GridItem
           title="No Place to Hide"
           thumbnail={noPlaceToHide}

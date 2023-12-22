@@ -8,6 +8,7 @@ import {
   SimpleGrid,
   Heading,
   Image,
+  Text,
   useColorModeValue,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
@@ -85,30 +86,19 @@ const Page = () => {
         </Heading>
 
         <p>
-          21... I'm Jason, a dedicated student with an interest for full-stack
-          development. Particularly, I have a passion for developing products
-          that I find practical in everyday life.
+          Hi, I'm in my last year of my undergrad for computer science and data
+          science (leaning more towards software engineering and algorithm
+          design). I was never naturally interested or gifted at programming,
+          even upon entering university—it was the only thing in which I felt I
+          had slight interest in. It wasn't really until my second year where I
+          became more comfortable programming and working with codebases where I
+          familiarized myself with more algorithm and design concepts. I tend to
+          believe that some people are naturally more interested in certain
+          hobbies, but I'd also like to believe that you can build passion,
+          despite not enjoying something at first. Now, I have a passion for
+          full-stack development and building things that, I believe, matter
+          because it's riveting to have the ability and tools to do so.
         </p>
-        <Box align="center" my={3}>
-          <NextLink href="/courses">
-            <Button
-              rightIcon={<ChevronRightIcon />}
-              colorScheme={useColorModeValue("gray", "gray")}
-            >
-              Courses
-            </Button>
-          </NextLink>
-        </Box>
-        <Box align="center" my={2}>
-          <NextLink href="/projects" passHref>
-            <Button
-              rightIcon={<ChevronRightIcon />}
-              colorScheme={useColorModeValue("gray", "gray")}
-            >
-              Projects
-            </Button>
-          </NextLink>
-        </Box>
       </Section>
       <Section delay={1.1}>
         <NoSsr>
@@ -140,7 +130,34 @@ const Page = () => {
         <Heading as="h3" variant="section-title">
           Hobbies
         </Heading>
-        <p>reading, music, soccer</p>
+
+        <p>
+          {" "}
+          <b>Reading</b> - I was never really a reader and I still probably am
+          not, but I need to work on my English comprehension and am convinced
+          that reading more will help with that.
+        </p>
+
+        <p>
+          {" "}
+          <b>Music</b> - Music helps my day go by faster, but if I'm trying to
+          focus, I turn off music.{" "}
+        </p>
+        <p>
+          <b>Soccer</b> - I recently got interested in soccer and joined an
+          intramural soccer team at Cal. I still suck, but I enjoy kicking the
+          ball around, occasionally.
+        </p>
+        <p>
+          <b>Competitive Programming</b> - I started to get into competitive
+          programming contests on sites like{" "}
+          <Link href="https://atcoder.jp/" color={"blue.300"}>
+            <b>atcoder</b>
+          </Link>
+          . I'm particularly new, but problem-solving is something that
+          intrigues me—because it can be extremely challenging, the ability to
+          solve problems is proportionately rewarding.
+        </p>
       </Section>
       <Section delay={2.5}>
         <Heading as="h3" variant="section-title">

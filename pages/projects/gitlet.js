@@ -12,10 +12,17 @@ const gitlet = () => {
           Gitlet
           <Badge> 2022 </Badge>
         </Title>
-        <P> Copied repository system like git</P>
+        <P>
+          {" "}
+          I was fortunate enough to take this course with Professor Hilfinger
+          where we had to implement, effectively, a Git clone from scratch. 61B,
+          at least early on, can be an extremely rewarding course and I feel
+          that this project is a primary reason as to why.
+        </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source </Meta>
+            course project, can't release source code
           </ListItem>
           <ListItem>
             <Meta>Languages/Frameworks</Meta>

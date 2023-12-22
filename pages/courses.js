@@ -22,7 +22,10 @@ import thumb166 from "../public/images/thumb166.png";
 import ParticlesComponent from "../components/animated-background";
 
 import thumb104 from "../public/images/ethics.png";
-import thumb182 from "../public/images/neural-network.png";
+import thumb186 from "../public/images/186.png";
+import thumb184 from "../public/images/184.png";
+import thumb120 from "../public/images/120.png";
+import thumb153 from "../public/images/153.png";
 import thumb162 from "../public/images/162.png";
 import thumb144 from "../public/images/144.png";
 import Voxel3 from "../components/voxel-3";
@@ -36,11 +39,40 @@ const courses = () => (
     </Heading>
     <Section delay={0.2}>
       <Heading as="h3" fontSize={30} mb={4}>
+        spring 2024
+      </Heading>
+    </Section>
+    <Section delay={0.4}>
+      <SimpleGrid columns={[2, 2, 4]} gap={6}>
+        <GridItem
+          thumbnail={thumb120}
+          title="EE 120 Signals and Systems"
+          href="https://www2.eecs.berkeley.edu/Courses/EE120/"
+        ></GridItem>
+        <GridItem
+          thumbnail={thumb184}
+          title="CS 184 Computer Graphics and Imaging"
+          href="https://cs184.eecs.berkeley.edu/sp23"
+        ></GridItem>
+        <GridItem
+          thumbnail={thumb186}
+          title="CS 186 Introduction to Databases"
+          href="https://cs186berkeley.net/"
+        ></GridItem>
+        <GridItem
+          thumbnail={thumb153}
+          title="INDENG 153- Logistics Network Design and Supply Chain Management"
+          href="https://classes.berkeley.edu/content/indeng-153"
+        ></GridItem>
+      </SimpleGrid>
+    </Section>
+    <Section delay={0.4}>
+      <Heading as="h3" fontSize={30} mb={4}>
         fall 2023
       </Heading>
     </Section>
     <Section delay={0.4}>
-      <SimpleGrid columns={[2, 2, 5]} gap={6}>
+      <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumb126}
           title="EECS 126 - Probability and Random Processes"
@@ -69,7 +101,7 @@ const courses = () => (
       </Heading>
     </Section>
     <Section delay={0.8}>
-      <SimpleGrid columns={[2, 2, 5]} gap={6}>
+      <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumb189}
           title="CS 189 - Machine Learning"
@@ -93,7 +125,7 @@ const courses = () => (
       </Heading>
     </Section>
     <Section delay={1}>
-      <SimpleGrid columns={[2, 2, 5]} gap={6}>
+      <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumb61c}
           title="CS 61C - Great Ideas in Machine Architecture"
@@ -121,7 +153,7 @@ const courses = () => (
       </Heading>
     </Section>
     <Section delay={1.4}>
-      <SimpleGrid columns={[2, 2, 5]} gap={6}>
+      <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumbd8}
           title="DATA 8 - Foundations of Data Science"
@@ -135,7 +167,7 @@ const courses = () => (
       </Heading>
     </Section>
     <Section delay={1.8}>
-      <SimpleGrid columns={[2, 2, 5]} gap={6}>
+      <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumb61b}
           title="CS 61B - Data Structures"
@@ -163,7 +195,7 @@ const courses = () => (
       </Heading>
     </Section>
     <Section delay={2.5}>
-      <SimpleGrid columns={[2, 2, 5]} gap={6}>
+      <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumb61a}
           title="CS 61A - Structure and Interpretation of Computer Programs"

@@ -30,7 +30,7 @@ const components = {
   },
 };
 const fonts = {
-  heading: "Space Mono",
+  heading: "Inter",
   body: "Lexend Deca",
 };
 const colors = {

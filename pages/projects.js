@@ -19,13 +19,14 @@ import bankLogo from "../public/images/bank.png";
 import swiphtLogo from "../public/images/swiphtchatlogo.png";
 import ParticlesComponent from "../components/animated-background.js";
 import Voxel2 from "../components/voxel-2.js";
+import pintos from "../public/images/pintos.png";
 const Projects = () => {
   return (
     <Layout title="Projects">
       <Box align="center">
         <Voxel2 />
       </Box>
-      <Heading as="h3" fontSize={40} mb={5}>
+      <Heading as="h3" align="center" fontSize={40} mb={5}>
         Projects
       </Heading>
       <Section delay={0.4}>
@@ -50,9 +51,13 @@ const Projects = () => {
         </SimpleGrid>
       </Section>
       <Section delay={0.65}>
-        <SimpleGrid columns={[1, 2, 3]} gap={5}>
+        <SimpleGrid columns={[1, 2, 4]} gap={5}>
           <ProjectsGridItem id="/gitlet" title="Gitlet" thumbnail={thumbGitlet}>
-            Git Repository Clone
+            Git clone
+          </ProjectsGridItem>
+          <ProjectsGridItem id="/pintos" title="PintOS" thumbnail={pintos}>
+            Implemented multithreading, fast file system, system call handling
+            on Stanford's PintOS project
           </ProjectsGridItem>
         </SimpleGrid>
       </Section>
