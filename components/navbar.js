@@ -27,7 +27,7 @@ const LinkItem = ({ href, path, children }) => {
     <NextLink href={href}>
       <Link
         p={2}
-        bg={active ? "white" : undefined}
+        bg={active ? "blue.300" : undefined}
         color={active ? "#202023" : inactiveColor}
       >
         {children}
@@ -46,6 +46,7 @@ const Navbar = (props) => {
       bg={useColorModeValue("#ffffff40", "#ffffff10")}
       style={{ backdropFilter: "blur(50px)" }}
       zIndex={2}
+      rounded={true}
       {...props}
     >
       <Container
@@ -57,7 +58,10 @@ const Navbar = (props) => {
         justify="space-between"
       >
         <Flex align="center" mr={5}>
-          <Heading as="h1" size="lg" letterSpacing={"tighter"}>
+          <LinkItem href="/" path={path}>
+            Jason Dang
+          </LinkItem>
+          <Heading ml={3} as="h1" size="lg" letterSpacing={"tighter"}>
             <Logo />
           </Heading>
         </Flex>
@@ -68,6 +72,7 @@ const Navbar = (props) => {
           alignItems="Center"
           flexGrow={1}
           mt={{ base: 4, nmd: 0 }}
+          rounded={true}
         >
           <LinkItem href="/courses" path={path}>
             courses
@@ -90,12 +95,12 @@ const Navbar = (props) => {
                 aria-label="Options"
                 borderRadius="full"
                 _expanded={{
-                  bg: useColorModeValue("white", "#1b3c4b"),
+                  bg: useColorModeValue("white", "#black"),
                 }}
               />
               <MenuList
                 color={useColorModeValue("black", "white")}
-                bg={useColorModeValue("#FAFAFA", "#1b3c4b")}
+                bg={useColorModeValue("white", "black")}
               >
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>about</MenuItem>

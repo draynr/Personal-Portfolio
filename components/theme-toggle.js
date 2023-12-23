@@ -6,7 +6,7 @@ const Toggle = () => {
   return (
     <IconButton
       aria-label="Toggles the theme"
-      colorScheme={useColorModeValue("gray", "teal")}
+      colorScheme={useColorModeValue("blue", "gray")}
       icon={useColorModeValue(<ViewOffIcon />, <ViewIcon />)}
       borderRadius="full"
       onClick={toggleColorMode}

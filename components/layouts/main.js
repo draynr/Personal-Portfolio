@@ -13,7 +13,7 @@ const Main = ({ children, router }) => {
         />
         <meta
           name="keywords"
-          content="uc berkeley, cal, jason, dang, computer science"
+          content="uc berkeley, cal,jason dang, dangjason, jasondang, senior, personal site, personal, website, web, jason, dang, computer science"
         />
         <title> Jason Dang </title>
         <meta name="description" content="Jason Dang's Personal Website" />

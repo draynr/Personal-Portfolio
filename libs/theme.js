@@ -3,7 +3,7 @@ import { mode } from "@chakra-ui/theme-tools";
 const styles = {
   global: (props) => ({
     body: {
-      bg: mode("#C6D4E2", "#122832")(props),
+      bg: mode("#FAF9F6", "#060606")(props),
     },
   }),
 };
@@ -24,7 +24,7 @@ const components = {
   },
   Link: {
     baseStyle: (props) => ({
-      color: mode("#FAFAFA", "#040622")(props),
+      color: mode("#FAFAFA", "black")(props),
       textUnderlineOffset: 3,
     }),
   },
@@ -34,10 +34,10 @@ const fonts = {
   body: "Lexend Deca",
 };
 const colors = {
-  grassTeal: "#D2B48C",
+  grassTeal: "black",
 };
 const config = {
-  initialColorMode: "dark",
+  initialColorMode: "light",
   useSystemColorMode: true,
 };
 const theme = extendTheme({

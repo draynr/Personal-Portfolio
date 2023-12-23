@@ -7,7 +7,15 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
   <Box
     w="100%"
     align="center"
-    _hover={{ background: "#ffffff30", color: "white" }}
+    _hover={{
+      background: "white.500",
+      color: "blue",
+      boxShadow: "xl",
+      transform: "scale(1.08)",
+      opacity: ".8",
+    }}
+    transition="opacity 0.2s"
+    borderRadius={"md"}
   >
     <LinkBox cursor="pointer">
       <Image
@@ -28,7 +36,13 @@ export const ProjectsGridItem = ({ children, id, title, thumbnail }) => (
   <Box
     w="full"
     align="center"
-    _hover={{ background: "#ffffff30", color: "white" }}
+    _hover={{
+      background: "white.500",
+      color: "blue",
+      boxShadow: "xl",
+      transform: "scale(1.05)",
+    }}
+    borderRadius={"lg"}
   >
     <NextLink href={`/projects/${id}`}>
       <LinkBox cursor="pointer">
