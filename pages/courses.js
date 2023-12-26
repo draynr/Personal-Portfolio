@@ -61,7 +61,7 @@ const courses = () => (
         ></GridItem>
         <GridItem
           thumbnail={thumb153}
-          title="INDENG 153- Logistics Network Design and Supply Chain Management"
+          title="INDENG 153 Logistics Network Design and Supply Chain Management"
           href="https://classes.berkeley.edu/content/indeng-153"
         ></GridItem>
       </SimpleGrid>
@@ -75,22 +75,22 @@ const courses = () => (
       <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumb126}
-          title="EECS 126 - Probability and Random Processes"
+          title="EECS 126 Probability and Random Processes"
           href="https://inst.eecs.berkeley.edu/~ee126/sp23/"
         ></GridItem>
         <GridItem
           thumbnail={thumb162}
-          title="CS 162 - Operating Systems and Systems Programming"
+          title="CS 162 Operating Systems and Systems Programming"
           href="https://cs162.org/"
         ></GridItem>
         <GridItem
           thumbnail={thumb144}
-          title="DATA 144 - Data Mining and Analytics"
+          title="DATA 144 Data Mining and Analytics"
           href="https://classes.berkeley.edu/content/2023-fall-data-144-001-lec-001"
         ></GridItem>
         <GridItem
           thumbnail={thumb166}
-          title="INDENG 166 - Decision Analytics"
+          title="INDENG 166 Decision Analytics"
           href="https://classes.berkeley.edu/content/2022-Spring-INDENG-166-001-LEC-001"
         ></GridItem>
       </SimpleGrid>
@@ -104,17 +104,17 @@ const courses = () => (
       <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumb189}
-          title="CS 189 - Machine Learning"
+          title="CS 189 Machine Learning"
           href="https://people.eecs.berkeley.edu/~jrs/189/"
         ></GridItem>
         <GridItem
           thumbnail={thumb100}
-          title="DATA 100 - Principles and Techniques of Data Science"
+          title="DATA 100 Principles and Techniques of Data Science"
           href="https://ds100.org/"
         ></GridItem>
         <GridItem
           thumbnail={thumb104}
-          title="DATA 104 - Ethics of Data"
+          title="DATA 104 Ethics of Data"
           href="https://data.berkeley.edu/data-104-human-contexts-and-ethics-data"
         ></GridItem>
       </SimpleGrid>
@@ -128,22 +128,22 @@ const courses = () => (
       <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumb61c}
-          title="CS 61C - Great Ideas in Machine Architecture"
+          title="CS 61C Great Ideas in Machine Architecture"
           href="https://cs61c.org/"
         ></GridItem>
         <GridItem
           thumbnail={thumb188}
-          title="CS 188 - Artifical Intelligence"
+          title="CS 188 Artifical Intelligence"
           href="https://inst.eecs.berkeley.edu/~cs188/fa22/"
         ></GridItem>
         <GridItem
           thumbnail={thumb161}
-          title="CS 161 - Computer Security"
+          title="CS 161 Computer Security"
           href="https://fa22.cs161.org/"
         ></GridItem>
         <GridItem
           thumbnail={thumb135}
-          title="UGBA 135 - Personal Finance"
+          title="UGBA 135 Personal Finance"
         ></GridItem>
       </SimpleGrid>
     </Section>
@@ -156,7 +156,7 @@ const courses = () => (
       <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumbd8}
-          title="DATA 8 - Foundations of Data Science"
+          title="DATA 8 Foundations of Data Science"
           href="http://data8.org/fa22/"
         ></GridItem>
       </SimpleGrid>
@@ -170,22 +170,22 @@ const courses = () => (
       <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumb61b}
-          title="CS 61B - Data Structures"
+          title="CS 61B Data Structures"
           href="https://inst.eecs.berkeley.edu/~cs61b/sp22/"
         ></GridItem>
         <GridItem
           thumbnail={thumb170}
-          title="CS 170 - Efficient Algorithms and Intractable Problems"
+          title="CS 170 Efficient Algorithms and Intractable Problems"
           href="https://cs170.org/"
         ></GridItem>
         <GridItem
           thumbnail={thumb16b}
-          title="EECS 16B - Designing Information Devices and System II"
+          title="EECS 16B Designing Information Devices and System II"
           href="https://eecs16b.org/"
         ></GridItem>
         <GridItem
           thumbnail={thumb1}
-          title="FRENCH 1 - Elementary French"
+          title="FRENCH 1 Elementary French"
         ></GridItem>
       </SimpleGrid>
     </Section>
@@ -198,15 +198,15 @@ const courses = () => (
       <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumb61a}
-          title="CS 61A - Structure and Interpretation of Computer Programs"
+          title="CS 61A Structure and Interpretation of Computer Programs"
           href="https://cs61a.org/"
         ></GridItem>
         <GridItem
           thumbnail={thumb70}
-          title="CS 70 - Discrete Mathematics and Probability Theory"
+          title="CS 70 Discrete Mathematics and Probability Theory"
           href="https://www.eecs70.org/"
         ></GridItem>
-        <GridItem thumbnail={thumb33a} title="STAT 33A - Intro to R"></GridItem>
+        <GridItem thumbnail={thumb33a} title="STAT 33A Intro to R"></GridItem>
       </SimpleGrid>
     </Section>
     <Section delay={1.2}>
