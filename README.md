@@ -4,7 +4,7 @@
 
 ## Preview
 
-![Site Preview](./public/images/site01.png)
+![Site Preview](./public/images/site_preview.gif)
 
 ## Stack?
 
