@@ -169,7 +169,7 @@ Intending to pursue Master's degree in Computer Science.
           ></Button>
         </Link>
         <Link
-          href="https://open.spotify.com/playlist/0twil6VLsXKfjVTHnOI26t?si=80cad5be8ac34e7e"
+          href="https://open.spotify.com/playlist/4Gfwt6AmTtTnOVflC3mY3b"
           target="_blank"
         >
           <Button

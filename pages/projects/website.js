@@ -26,6 +26,9 @@ const website = () => {
             <Meta>Tools</Meta>
             <span>Next.js, Chakra UI, Three.js </span>
           </ListItem>
+                  <ProjectImage src={"/images/site_preview.gif"} />
+
+
         </List>
       </Container>
     </Layout>

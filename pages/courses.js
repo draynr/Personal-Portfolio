@@ -35,7 +35,7 @@ const courses = () => (
       <Voxel3 />
     </Box>
     <Heading as="h2" fontSize={45} align="center" mb={5} mt={4}>
-      Course Work
+      Undergraduate Coursework @ Berkeley
     </Heading>
     <Section delay={0.2}>
       <Heading as="h3" fontSize={30} mb={4}>
