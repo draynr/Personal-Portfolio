@@ -34,7 +34,7 @@ const Projects = () => {
           <ProjectsGridItem id="/website" title="Website" thumbnail={site}>
             Personal Site
           </ProjectsGridItem>
-          <ProjectsGridItem
+          {/* <ProjectsGridItem
             id="/chat"
             title="SwiphtChat"
             thumbnail={swiphtLogo}
@@ -47,7 +47,7 @@ const Projects = () => {
             thumbnail={bankLogo}
           >
             Web Application for Centralized Hub Access of Banking Transactions
-          </ProjectsGridItem>
+          </ProjectsGridItem> */}
         </SimpleGrid>
       </Section>
       <Section delay={0.65}>

@@ -45,11 +45,6 @@ const courses = () => (
     <Section delay={0.4}>
       <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
-          thumbnail={thumb120}
-          title="EE 120 Signals and Systems"
-          href="https://www2.eecs.berkeley.edu/Courses/EE120/"
-        ></GridItem>
-        <GridItem
           thumbnail={thumb184}
           title="CS 184 Computer Graphics and Imaging"
           href="https://cs184.eecs.berkeley.edu/sp23"

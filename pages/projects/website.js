@@ -27,10 +27,6 @@ const website = () => {
             <span>Next.js, Chakra UI, Three.js </span>
           </ListItem>
         </List>
-        <ProjectImage src={"/images/site02.png"} />
-        <ProjectImage src={"/images/site01.png"} />
-        <ProjectImage src={"/images/site03.png"} />
-        <ProjectImage src={"/images/site04.png"} />
       </Container>
     </Layout>
   );

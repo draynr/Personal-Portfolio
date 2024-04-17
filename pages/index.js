@@ -86,18 +86,11 @@ const Page = () => {
         </Heading>
 
         <p>
-          Hi, I'm in my last year of my undergrad for computer science and data
-          science (leaning more towards software engineering and algorithm
-          design). I was never naturally interested or gifted at programming,
-          even upon entering university—it was the only thing in which I felt I
-          had slight interest in. It wasn't really until my second year where I
-          became more comfortable programming and working with codebases where I
-          familiarized myself with more algorithm and design concepts. I tend to
-          believe that some people are naturally more interested in certain
-          hobbies, but I'd also like to believe that you can build passion,
-          despite not enjoying something at first. Now, I have a passion for
-          full-stack development and building things that, I believe, matter
-          because it's riveting to have the ability and tools to do so.
+
+Aspiring software engineer with strong fundamentals in computer science and experience developing full-stack web applications and games. Passionate about algorithmic solutions, and building innovative software. Seeking to leverage skills to contribute to cutting-edge projects at a top tech company.
+Intending to pursue Master's degree in Computer Science.
+
+   
         </p>
       </Section>
       <Section delay={1.1}>
@@ -110,54 +103,42 @@ const Page = () => {
           Timeline
         </Heading>
         <TimelineSection>
-          <TimelineYear> Apr '02</TimelineYear>
-          sacramento, california
-        </TimelineSection>
-        <TimelineSection>
           <TimelineYear>Jul '19 - Apr '20</TimelineYear>
-          volt workforce solutions -> apple internship
+          Apple Internship 
         </TimelineSection>
         <TimelineSection>
-          <TimelineYear>May '20</TimelineYear>
-          franklin hs
+          <TimelineYear>Aug '16 - May '20</TimelineYear>
+          Franklin High School
         </TimelineSection>
         <TimelineSection>
           <TimelineYear>Aug '21 - May '24</TimelineYear>
-          uc berkeley
+          University of California, Berkeley
+        </TimelineSection>
+        <TimelineSection>
+          <TimelineYear>Current</TimelineYear>
+          Work/Graduate Program
         </TimelineSection>
       </Section>
       <Section delay={1.5}>
         <Heading as="h3" variant="section-title">
-          Hobbies
+          Activities
         </Heading>
 
-        <p>
+        <li>
           {" "}
-          <b>Reading</b> - I was never really a reader and I still probably am
-          not, but I need to work on my English comprehension and am convinced
-          that reading more will help with that.
-        </p>
+          <b>Reading</b> 
+        </li>
 
-        <p>
+        <li>
           {" "}
-          <b>Music</b> - Music helps my day go by faster, but if I'm trying to
-          focus, I turn off music.{" "}
-        </p>
-        <p>
-          <b>Soccer</b> - I recently got interested in soccer and joined an
-          intramural soccer team at Cal. I still suck, but I enjoy kicking the
-          ball around, occasionally.
-        </p>
-        <p>
-          <b>Competitive Programming</b> - I started to get into competitive
-          programming contests on sites like{" "}
-          <Link href="https://atcoder.jp/" color={"blue.300"}>
-            <b>atcoder</b>
-          </Link>
-          . I'm particularly new, but problem-solving is something that
-          intrigues me—because it can be extremely challenging, the ability to
-          solve problems is proportionately rewarding.
-        </p>
+          <b>Music</b> 
+        </li>
+        <li>
+          <b>Soccer</b> 
+        </li>
+        <li>
+          <b>Competitive Programming Contests</b> 
+        </li>
       </Section>
       <Section delay={2.5}>
         <Heading as="h3" variant="section-title">
