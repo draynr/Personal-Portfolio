@@ -20,6 +20,7 @@ import swiphtLogo from "../public/images/swiphtchatlogo.png";
 import ParticlesComponent from "../components/animated-background.js";
 import Voxel2 from "../components/voxel-2.js";
 import pintos from "../public/images/pintos.png";
+import game_thumb from "../public/images/game.png"
 const Projects = () => {
   return (
     <Layout title="Projects">
@@ -31,27 +32,9 @@ const Projects = () => {
       </Heading>
       <Section delay={0.4}>
         <SimpleGrid columns={[1, 2, 4]} gap={10}>
-          <ProjectsGridItem id="/website" title="Website" thumbnail={site}>
-            Personal Site
+          <ProjectsGridItem id="/lights_camera_dungeon" title="Lights Camera Dungeon" thumbnail={game_thumb}>
+            Lights Camera Dungeon
           </ProjectsGridItem>
-          {/* <ProjectsGridItem
-            id="/chat"
-            title="SwiphtChat"
-            thumbnail={swiphtLogo}
-          >
-            Real-time web chat application
-          </ProjectsGridItem>
-          <ProjectsGridItem
-            id="/banking"
-            title="IntegratedBanking"
-            thumbnail={bankLogo}
-          >
-            Web Application for Centralized Hub Access of Banking Transactions
-          </ProjectsGridItem> */}
-        </SimpleGrid>
-      </Section>
-      <Section delay={0.65}>
-        <SimpleGrid columns={[1, 2, 4]} gap={5}>
           <ProjectsGridItem id="/gitlet" title="Gitlet" thumbnail={thumbGitlet}>
             Git clone
           </ProjectsGridItem>

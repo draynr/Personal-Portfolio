@@ -27,6 +27,7 @@
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
     "framer-motion": "^6.4.3",
+    "katex": "^0.16.10",
     "next": "^12.2.5",
     "next-link": "^2.0.0",
     "react": "^18.2.0",
