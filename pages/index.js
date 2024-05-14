@@ -87,10 +87,7 @@ const Page = () => {
 
         <p>
 
-Aspiring software engineer with strong fundamentals in computer science and experience developing full-stack web applications and games. Passionate about algorithmic solutions, and building innovative software. Seeking to leverage skills to contribute to cutting-edge projects at a top tech company.
-Intending to pursue Master's degree in Computer Science.
-
-   
+  Aspiring software engineer with strong fundamentals in computer science and experience developing full-stack web applications and games. Passionate about algorithmic solutions, and building innovative software. I want to have fun doing what I'm doing. 
         </p>
       </Section>
       <Section delay={1.1}>
@@ -113,10 +110,6 @@ Intending to pursue Master's degree in Computer Science.
         <TimelineSection>
           <TimelineYear>Aug '21 - May '24</TimelineYear>
           University of California, Berkeley
-        </TimelineSection>
-        <TimelineSection>
-          <TimelineYear>Current</TimelineYear>
-          Work/Graduate Program
         </TimelineSection>
       </Section>
       <Section delay={1.5}>

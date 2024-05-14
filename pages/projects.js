@@ -21,6 +21,7 @@ import ParticlesComponent from "../components/animated-background.js";
 import Voxel2 from "../components/voxel-2.js";
 import pintos from "../public/images/pintos.png";
 import game_thumb from "../public/images/game.png"
+import physics from "../public/images/physics.png"
 const Projects = () => {
   return (
     <Layout title="Projects">
@@ -28,12 +29,16 @@ const Projects = () => {
         <Voxel2 />
       </Box>
       <Heading as="h3" align="center" fontSize={40} mb={5}>
-        Projects
+        technical
       </Heading>
       <Section delay={0.4}>
         <SimpleGrid columns={[1, 2, 4]} gap={10}>
           <ProjectsGridItem id="/lights_camera_dungeon" title="Lights Camera Dungeon" thumbnail={game_thumb}>
             Lights Camera Dungeon
+          </ProjectsGridItem>
+          <ProjectsGridItem id="/pathtracer" title="Physics Based Rendering" thumbnail={physics}>
+            Physics based rendering
+
           </ProjectsGridItem>
           <ProjectsGridItem id="/gitlet" title="Gitlet" thumbnail={thumbGitlet}>
             Git clone
