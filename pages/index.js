@@ -86,8 +86,8 @@ const Page = () => {
         </Heading>
 
         <p>
+          Just wanna be a little less wrong.
 
-  Aspiring software engineer with strong fundamentals in computer science and experience developing full-stack web applications and games. Passionate about algorithmic solutions, and building innovative software. I want to have fun doing what I'm doing. 
         </p>
       </Section>
       <Section delay={1.1}>
@@ -154,7 +154,7 @@ const Page = () => {
             leftIcon={<Icon as={IoLogoLinkedin}></Icon>}
           ></Button>
         </Link>
-        <Link href="https://www.instagram.com/jaesiiiiiiin/" target="_blank">
+        <Link href="https://www.instagram.com/kiet.9812/" target="_blank">
           <Button
             variant="ghost"
             colorScheme="orange"
