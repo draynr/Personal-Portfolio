@@ -13,13 +13,36 @@ const lights_camera_dungeon = () => {
           <Badge> 2024 </Badge>
         </Title>
         <P>
-          2.5D bullet-hell topdown game that focuses on many graphic techniques learned in CS 184. Wanted to create a  unique experience by combining lements from 2D pixel-art into 3D rendering. 
+          2.5D bullet-hell topdown game that focuses on many graphic techniques
+          learned in CS 184. Wanted to create a unique experience by combining
+          lements from 2D pixel-art into 3D rendering.
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Src </Meta>
-            <Link href="https://github.com/draynr/Lights-Camera-Dungeon" color="pink.500">
-              github
+            <Link
+              href="https://github.com/draynr/Lights-Camera-Dungeon"
+              color="pink.500"
+            >
+              Repo
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Meta>Docs</Meta>
+            <Link
+              href="https://draynr.github.io/Lights_Camera_Dungeon/"
+              color="pink.500"
+            >
+              Walkthrough
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Meta> Download</Meta>
+            <Link
+              href="https://toastyfraud.itch.io/lights-camera-dungeon"
+              color="pink.500"
+            >
+              .exe
             </Link>
           </ListItem>
           <ListItem>
@@ -32,9 +55,12 @@ const lights_camera_dungeon = () => {
           <ProjectImage src={"/images/game_preview_01.gif"} />
           <ProjectImage src={"/images/game_preview_02.gif"} />
           <ProjectImage src={"/images/game_preview_03.gif"} />
-          <video src="/images/game_preview_05.mp4" height={1080} width={720} controls></video>
-
-
+          <video
+            src="/images/game_preview_05.mp4"
+            height={1080}
+            width={720}
+            controls
+          ></video>
         </List>
       </Container>
     </Layout>
