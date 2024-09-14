@@ -40,10 +40,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/projects.js"
     ],
-    "/read": [
+    "/projects/lights_camera_dungeon": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/read.js"
+      "static/chunks/pages/projects/lights_camera_dungeon.js"
     ]
   },
   "ampFirstPages": []

@@ -29,20 +29,33 @@ import thumb153 from "../public/images/153.png";
 import thumb162 from "../public/images/162.png";
 import thumb144 from "../public/images/144.png";
 import Voxel3 from "../components/voxel-3";
+const t = .2
 const courses = () => (
   <Layout title="Courses">
     <Box align="center">
       <Voxel3 />
     </Box>
+  
+    <Heading as="h2" fontSize={45} align="center" mb={5} mt={4}>
+      Graduate Coursework 
+    </Heading>
+    <Section delay={t}>
+      <Heading as="h3" fontSize={30} mb={4}>
+        spring 2025
+      </Heading>
+      <Heading as="h3" fontSize={30} mb={4}>
+        ...
+      </Heading>
+    </Section>
     <Heading as="h2" fontSize={45} align="center" mb={5} mt={4}>
       Undergraduate Coursework @ Berkeley
     </Heading>
-    <Section delay={0.2}>
+    <Section delay={t+.2}>
       <Heading as="h3" fontSize={30} mb={4}>
         spring 2024
       </Heading>
     </Section>
-    <Section delay={0.4}>
+    <Section delay={t+.4}>
       <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumb184}
@@ -61,12 +74,12 @@ const courses = () => (
         ></GridItem>
       </SimpleGrid>
     </Section>
-    <Section delay={0.4}>
+    <Section delay={t+.6}>
       <Heading as="h3" fontSize={30} mb={4}>
         fall 2023
       </Heading>
     </Section>
-    <Section delay={0.4}>
+    <Section delay={t+.8}>
       <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumb126}
@@ -90,12 +103,12 @@ const courses = () => (
         ></GridItem>
       </SimpleGrid>
     </Section>
-    <Section delay={0.6}>
+    <Section delay={t+1}>
       <Heading as="h3" fontSize={30} mb={4}>
         spring 2023
       </Heading>
     </Section>
-    <Section delay={0.8}>
+    <Section delay={t+1}>
       <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumb189}
@@ -114,12 +127,12 @@ const courses = () => (
         ></GridItem>
       </SimpleGrid>
     </Section>
-    <Section delay={0.8}>
+    <Section delay={t+1.2}>
       <Heading as="h3" fontSize={30} mb={4}>
         fall 2022
       </Heading>
     </Section>
-    <Section delay={1}>
+    <Section delay={t+1.4}>
       <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumb61c}
@@ -142,12 +155,12 @@ const courses = () => (
         ></GridItem>
       </SimpleGrid>
     </Section>
-    <Section delay={1.2}>
+    <Section delay={t+1.6}>
       <Heading as="h3" fontSize={30} mt={4} mb={4}>
         summer 2022
       </Heading>
     </Section>
-    <Section delay={1.4}>
+    <Section delay={t+1.8}>
       <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumbd8}
@@ -156,12 +169,12 @@ const courses = () => (
         ></GridItem>
       </SimpleGrid>
     </Section>
-    <Section delay={1.6}>
+    <Section delay={t+2}>
       <Heading as="h3" fontSize={30} mt={4} mb={4}>
         spring 2022
       </Heading>
     </Section>
-    <Section delay={1.8}>
+    <Section delay={t+2.2}>
       <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumb61b}
@@ -184,12 +197,12 @@ const courses = () => (
         ></GridItem>
       </SimpleGrid>
     </Section>
-    <Section delay={2.2}>
+    <Section delay={t+2.4}>
       <Heading as="h3" fontSize={30} mt={4} mb={4}>
         fall 2021
       </Heading>
     </Section>
-    <Section delay={2.5}>
+    <Section delay={t+2.5}>
       <SimpleGrid columns={[2, 2, 4]} gap={6}>
         <GridItem
           thumbnail={thumb61a}
@@ -204,7 +217,7 @@ const courses = () => (
         <GridItem thumbnail={thumb33a} title="STAT 33A Intro to R"></GridItem>
       </SimpleGrid>
     </Section>
-    <Section delay={1.2}>
+    <Section delay={t+1}>
       <ParticlesComponent />
     </Section>
   </Layout>

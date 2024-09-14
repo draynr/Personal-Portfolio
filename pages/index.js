@@ -111,6 +111,10 @@ const Page = () => {
           <TimelineYear>Aug '21 - May '24</TimelineYear>
           University of California, Berkeley
         </TimelineSection>
+        <TimelineSection>
+          <TimelineYear>Oct '24 - Present</TimelineYear>
+          Amazon SDE
+        </TimelineSection>
       </Section>
       <Section delay={1.5}>
         <Heading as="h3" variant="section-title">
@@ -128,9 +132,6 @@ const Page = () => {
         </li>
         <li>
           <b>Soccer</b> 
-        </li>
-        <li>
-          <b>Competitive Programming Contests</b> 
         </li>
       </Section>
       <Section delay={2.5}>
