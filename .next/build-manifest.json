@@ -15,11 +15,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -40,10 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/projects.js"
     ],
-    "/projects/lights_camera_dungeon": [
+    "/read": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/projects/lights_camera_dungeon.js"
+      "static/chunks/pages/read.js"
     ]
   },
   "ampFirstPages": []

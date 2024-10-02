@@ -24,7 +24,7 @@ const lights_camera_dungeon = () => {
               href="https://github.com/draynr/Lights-Camera-Dungeon"
               color="pink.500"
             >
-              Repo
+              repo
             </Link>
           </ListItem>
           <ListItem>
@@ -33,7 +33,7 @@ const lights_camera_dungeon = () => {
               href="https://draynr.github.io/Lights_Camera_Dungeon/"
               color="pink.500"
             >
-              Walkthrough
+              reflection
             </Link>
           </ListItem>
           <ListItem>
